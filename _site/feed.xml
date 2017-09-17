@@ -3,10 +3,10 @@
   <channel>
     <title>Testing in Space</title>
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
-    <link>localhost:4000/</link>
-    <atom:link href="localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 26 Aug 2017 00:20:43 +0200</pubDate>
-    <lastBuildDate>Sat, 26 Aug 2017 00:20:43 +0200</lastBuildDate>
+    <link>http://testingin.space/</link>
+    <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 17 Sep 2017 10:18:34 +0200</pubDate>
+    <lastBuildDate>Sun, 17 Sep 2017 10:18:34 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
   </channel>
