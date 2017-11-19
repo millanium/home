@@ -2,7 +2,7 @@
 key: 1
 title: About
 permalink: /about/
-excerpt: 
+excerpt: A few words about me and myself
 background-image: pic2.jpg
 ---
 
