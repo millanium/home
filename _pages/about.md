@@ -17,7 +17,7 @@ In the last decade I have gained practical experience in software testing and qu
 
 I strongly believe people are the most important aspect in software development, thus in terms of agile, I have worked with many developers, testers and product managers and helped them to grow both technically and personally.
 
-I am active in the testing community, through our [Slack](https://testersio.slack.com) channel. I share my thoughts @[milan_kuveljic](https://twitter.com/milan_kuveljic), feel free to reach out. I also write about ideas, tools, processes and everything that matters to our [work](/works)
+I am active in the testing community, through our [Slack](https://testersio.slack.com) channel. I share my thoughts @[milan_kuveljic](https://twitter.com/milan_kuveljic), feel free to reach out. I also write about ideas, tools, processes and everything that matters to our [work](/works.)
 
 I enjoy speaking publicly at the conferenes and meetups where I share my knowledge and experience.
 
