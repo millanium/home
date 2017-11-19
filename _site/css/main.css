@@ -3060,10 +3060,10 @@ body.is-loading #banner:after {
 
 #main > header {
   padding: 12em 0 10em 0 ;
-  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg");
-  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg");
-  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg");
-  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/banner.jpg");
+  background-image: -moz-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/source.gif");
+  background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/source.gif");
+  background-image: -ms-linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/source.gif");
+  background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url("/images/source.gif");
   background-attachment: fixed;
   background-position: center center;
   background-repeat: no-repeat;

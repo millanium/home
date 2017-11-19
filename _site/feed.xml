@@ -5,9 +5,55 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 17 Sep 2017 10:18:34 +0200</pubDate>
-    <lastBuildDate>Sun, 17 Sep 2017 10:18:34 +0200</lastBuildDate>
+    <pubDate>Sun, 19 Nov 2017 12:08:41 +0100</pubDate>
+    <lastBuildDate>Sun, 19 Nov 2017 12:08:41 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>WHAT QA DOESN’T STAND FOR?</title>
+        <description>&lt;h2 id=&quot;quality-assurance&quot;&gt;Quality Assurance&lt;/h2&gt;
+
+&lt;p&gt;&lt;em&gt;Noun&lt;/em&gt;: &lt;strong&gt;is a way of preventing mistakes or defects in manufactured products and avoiding problems when delivering solutions or services to customers.&lt;/strong&gt;&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;QA is not a verb.&lt;/li&gt;
+  &lt;li&gt;It’s not Q&amp;amp;A.&lt;/li&gt;
+  &lt;li&gt;QA is not a person.&lt;/li&gt;
+  &lt;li&gt;QA stands for Quality Assurance.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;So when you say “can you please QA this build”, you are asking “can you please Quality Assurance this build?” That’s probably not what you meant.&lt;/p&gt;
+
+&lt;p&gt;Most likely you mean:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Can you please test this build?&lt;/li&gt;
+  &lt;li&gt;Can you please check these acceptance criteria?&lt;/li&gt;
+  &lt;li&gt;Can you please use your Quality Assurance skills to help ensure this build is of sufficient quality for our customers?&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You wouldn’t say:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Can you please IT this computer?&lt;/li&gt;
+  &lt;li&gt;Can you please Development this code?&lt;/li&gt;
+  &lt;li&gt;Can you please Engineering this system?&lt;/li&gt;
+  &lt;li&gt;Can you please Product Management this requirement?&lt;/li&gt;
+  &lt;li&gt;Can you please UX this build?&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 16 Jun 2017 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/topics/space/</link>
+        <guid isPermaLink="true">http://testingin.space/topics/space/</guid>
+        
+        <category>featured</category>
+        
+        
+        <category>topics</category>
+        
+        <category>space</category>
+        
+      </item>
     
   </channel>
 </rss>
