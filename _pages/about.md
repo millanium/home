@@ -6,7 +6,7 @@ excerpt: A few words about me and myself
 background-image: pic2.jpg
 ---
 
-<img src="/images/milan.jpg"
+<img src="/images/milan1.png"
      style="float: right; width: 200px" />
 My name is **Milan**, and this is my personal web space. 
 I am the Head of QA and tester at [N26](https://n26.com), the first European mobile bank.
