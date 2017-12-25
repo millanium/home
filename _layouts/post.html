@@ -6,7 +6,7 @@ layout: default
       unless site.navlinks == 'none'
 %}{%    if page.categories contains 'works'
 %}{%      assign idxperma = '/works/'
-%}{%      assign idxtitle = 'Works Index'
+%}{%      assign idxtitle ='Works Index'
 %}{%      assign idxbutton = 'Index'
 %}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
 %}{%    endif
@@ -31,7 +31,7 @@ layout: default
         style="margin-top:3px;" />{%
       endunless
 %}{%  if page.categories contains 'works' and page.tags %}
-      <h4>Skills</h4>
+      <h4></h4>
   {%    assign work = page
 %}{%    include techlist.html %}
   {%  endif

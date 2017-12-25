@@ -5,9 +5,51 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 25 Nov 2017 23:12:29 +0100</pubDate>
-    <lastBuildDate>Sat, 25 Nov 2017 23:12:29 +0100</lastBuildDate>
+    <pubDate>Mon, 25 Dec 2017 23:51:16 +0100</pubDate>
+    <lastBuildDate>Mon, 25 Dec 2017 23:51:16 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Is QA a verb?</title>
+        <description>&lt;p&gt;A few months ago I joined a startup as QA Engineer. We have already established quality culture across the development teams, nonetheless, the company is still in the early stage, and many new people are joining every month.
+It was my first month there, and it was my first job in a product-oriented company, after few years spent in consultancy.
+I was still learning new terminology, especially the one related to the product domain.&lt;/p&gt;
+
+&lt;p&gt;One of my team fellows came to me one afternoon and asked: “Hey, we have this story to be deployed today, do you think you can QA it quickly?” 
+I stayed puzzled for a bit, but then I realized he wanted me to test some change.&lt;/p&gt;
+
+&lt;p&gt;Is QA a verb?&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Quality assurance (QA)&lt;/strong&gt; &lt;em&gt;is a way of preventing mistakes or defects in manufactured products and avoiding problems when delivering solutions or services to customers; which ISO 9000 defines as “part of quality management focused on providing confidence that quality
+requirements will be fulfilled”. This defect prevention in quality assurance differs subtly from defect detection and rejection in quality control, and has been referred to as a shift left as it focuses on quality earlier in the process.&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Even though it’s an old definition, it still explains the fundamentals.&lt;/p&gt;
+
+&lt;p&gt;From Software perspective:&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Software Quality Assurance&lt;/strong&gt; consists of a means of monitoring the software engineering processes and methods used to ensure quality.&lt;/p&gt;
+
+&lt;p&gt;Having a look at Wikipedia, apparently QA stands for Quality Assurance and it looks like it’s a &lt;strong&gt;noun&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;Now, why am I bragging about it?&lt;/p&gt;
+
+&lt;p&gt;First, there is a misunderstanding in fundamentals.
+QA is not testing. Testing is one of the actions QA Engineers perform in their daily work among others, risk analyses, test implementation, test data generation, bug triage, monitoring, automation, to improve development process. Quality stands in front of all mentioned actions.&lt;/p&gt;
+
+&lt;p&gt;Quality and particularly, assuring quality of software implementation is in ownership of the development team.
+In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the high quality standards.It is a team effort to understand how each requirement, whether technical or functional will produce the value.&lt;/p&gt;
+
+&lt;p&gt;So, which exactly part do you want me to check?&lt;/p&gt;
+
+</description>
+        <pubDate>Thu, 25 Sep 2014 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/works/Is-QA-a-verb.html</link>
+        <guid isPermaLink="true">http://testingin.space/works/Is-QA-a-verb.html</guid>
+        
+        
+        <category>works</category>
+        
+      </item>
     
   </channel>
 </rss>
