@@ -1,7 +1,7 @@
 ---
 priority: 0.1
 title: Is QA a verb?
-excerpt: .
+excerpt: Quality Assurance
 categories: works
 layout: post
 comments: true
