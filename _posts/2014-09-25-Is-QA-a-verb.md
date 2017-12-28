@@ -33,8 +33,8 @@ Now, why am I bragging about it?
 First, there is a misunderstanding in fundamentals.
 QA is not testing. Testing is one of the actions QA Engineers perform in their daily work among others, risk analyses, test implementation, test data generation, bug triage, monitoring, automation, to improve development process. Quality stands in front of all mentioned actions.
 
-Quality and particularly, assuring quality of software implementation is in ownership of the development team.
-In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the high quality standards.It is a team effort to understand how each requirement, whether technical or functional will produce the value.
+Quality and particularly, assuring quality of software implementation is in the ownership of development teams.
+In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the highest quality standards. It is a team effort to understand how each requirement, whether technical or functional will produce the value.
 
 So, which exactly part do you want me to check?
 
