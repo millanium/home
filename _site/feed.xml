@@ -5,35 +5,9 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 26 Dec 2017 00:34:47 +0100</pubDate>
-    <lastBuildDate>Tue, 26 Dec 2017 00:34:47 +0100</lastBuildDate>
+    <pubDate>Tue, 16 Jan 2018 18:59:41 +0100</pubDate>
+    <lastBuildDate>Tue, 16 Jan 2018 18:59:41 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
-    
-      <item>
-        <title>Softwareforen Podcast</title>
-        <description>&lt;p&gt;Early this year I was invited by &lt;a href=&quot;https://www.softwareforen.de/portal/Veranstaltungen/User-Groups/Softwaretest-und-Qualit%C3%A4tssicherung/Startseite.xhtml&quot;&gt;Softwareforen Leipzig&lt;/a&gt; to talk on &lt;strong&gt;Testing in Agile&lt;/strong&gt; topic.
-It was a 2 days conference where we got to hear topics:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Agile transformation of big traditional organization&lt;/li&gt;
-  &lt;li&gt;Roles in Agile environment&lt;/li&gt;
-  &lt;li&gt;Test case management and automation&lt;/li&gt;
-  &lt;li&gt;Cost of testing in Scrum teams&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My talk was about Quality Assurance in digital banking where I shared a story of building a quality culture in startup environment. 
-After the talk we have recored a short podcast with Dr. André Köhler.&lt;/p&gt;
-
-&lt;p&gt;You can listen it &lt;a href=&quot;https://www.softwareforen.de/podcast/SFL-Podcast_01_Milan_N26_Neu.mp3&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Mon, 23 Oct 2017 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/works/softwareforen-podcast.html</link>
-        <guid isPermaLink="true">http://testingin.space/works/softwareforen-podcast.html</guid>
-        
-        
-        <category>works</category>
-        
-      </item>
     
       <item>
         <title>Softwareforen Podcast</title>
@@ -88,8 +62,8 @@ requirements will be fulfilled”. This defect prevention in quality assurance d
 &lt;p&gt;First, there is a misunderstanding in fundamentals.
 QA is not testing. Testing is one of the actions QA Engineers perform in their daily work among others, risk analyses, test implementation, test data generation, bug triage, monitoring, automation, to improve development process. Quality stands in front of all mentioned actions.&lt;/p&gt;
 
-&lt;p&gt;Quality and particularly, assuring quality of software implementation is in ownership of the development team.
-In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the high quality standards.It is a team effort to understand how each requirement, whether technical or functional will produce the value.&lt;/p&gt;
+&lt;p&gt;Quality and particularly, assuring quality of software implementation is in the ownership of development teams.
+In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the highest quality standards. It is a team effort to understand how each requirement, whether technical or functional will produce the value.&lt;/p&gt;
 
 &lt;p&gt;So, which exactly part do you want me to check?&lt;/p&gt;
 
