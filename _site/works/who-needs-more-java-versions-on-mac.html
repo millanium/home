@@ -1,0 +1,305 @@
+<!DOCTYPE html>
+<!--
+  Original Design: Spectral by HTML5 UP
+    html5up.net | @n33co
+    Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+  Jekyll build mod and further hacks by @arkadianriver, MIT license
+-->
+<html>
+
+<link rel="shortcut icon" type="image/png" href="/images/favicon.png" >
+
+  <head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Who needs more Java versions on Mac?</title>
+  <meta name="description" content="Java">
+  <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
+  <link rel="canonical" href="http://testingin.space/works/who-needs-more-java-versions-on-mac.html">
+  <link rel="stylesheet" href="/css/main.css" />
+  <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
+  <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
+  <style>
+  #main > header {
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/java.jpg");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/java.jpg");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/java.jpg");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/java.jpg");
+  }
+  </style>
+  <!--[if lte IE 9]>
+  <style>
+  #main > header {
+    background-image: url("/images/java.jpg");
+  }
+  </style>
+  -->
+  <link rel="alternate" type="application/rss+xml" title="Testing in Space" href="http://testingin.space/feed.xml">
+</head>
+
+
+  <body>
+
+    <!-- Page Wrapper -->
+    <div id="page-wrapper">
+
+      <!-- Header -->
+<header id="header">
+  <h1><a href="/index.html">Testing in Space</a></h1>
+  <nav id="nav">
+    <ul>
+      <li class="special">
+        <a href="#menu" class="menuToggle"><span>Menu</span></a>
+        <div id="menu">
+          <ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/about/">About</a></li>
+            <li><a href="/works/">Works</a></li>
+            <li><a href="/spaces/">Spaces</a></li>
+            <li><a href="/contact/">Contact</a></li>
+            <li><a href="/feed.xml"
+                   class="icon fa-feed"> RSS Feed</a></li>
+          </ul>
+        </div>
+      </li>
+    </ul>
+  </nav>
+</header>
+
+
+      <article id="main">
+
+          <header>
+    <h2>Who needs more Java versions on Mac?</h2>
+    <p>Java</p>
+  </header>
+  <ul class="breadcrumb">
+  <li><a href="/index.html">Home</a></li>
+  <li style="text-transform: capitalize;"><a href="/works">works</a></li>
+  <li>Who needs more Java versions on Mac?</li>
+</ul>
+
+
+
+          <section class="wrapper style5">
+    <div class="inner">
+      <span id="post-date">15 July 2017</span><hr
+        style="margin-top:3px;" />
+      <h4></h4>
+  <ul class="techlist">
+</ul>
+
+  
+
+      <p>As a nerd, I always tend to use the latest technologies and try them out in experimental ways, but I never wanted to do that with the old ones.
+I installed recently one media application which required <strong>Java 6</strong>.</p>
+
+<p><strong>Java 6</strong>? Huh, that’s like 2006.</p>
+
+<p>Alright, I needed to keep <strong>Java 8</strong> for all my other projects while also having <strong>Java 6</strong> for non work related things.</p>
+
+<p>A solution that allows this is to use <a href="http://www.jenv.be/">jEnv</a>.</p>
+
+<p><strong>jEnv</strong> is a simple command line tool that allows you to manage multiple Java versions.
+I will assume you have <strong>Homebrew</strong> already on your Mac.</p>
+
+<p>Install <strong>jEnv</strong> via <a href="http://brew.sh/">Homebrew</a>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>brew update 
+brew install jenv
+</code></pre>
+</div>
+
+<p>To make <strong>jEnv</strong> available from anywhere in your <em>PATH</em>, you should add following to your <code class="highlighter-rouge">.bash_profile</code> :</p>
+
+<p><code class="highlighter-rouge">if which jenv &gt; /dev/null; then eval "$(jenv init -)"; fi</code></p>
+
+<p>Now, that you have <strong>jEnv</strong>, we can check what <strong>Java</strong> versions are installed:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ jenv versions
+ system
+ 1.8
+* oracle64-1.8.0.131 (set by /Users/user/.java-version)
+</code></pre>
+</div>
+
+<p>We can see that it detected the system <strong>Java</strong> and 1.8.
+The Asterisk in front of the system version marks the current selection.</p>
+
+<p><img src="/images/install.jpg" width="1000" /></p>
+
+<p>You can’t install any version of <strong>Java</strong> with <strong>jEnv</strong>, so we need to do it other way.</p>
+
+<p>Initially I needed <strong>Java 6</strong>, which I downloaded from <a href="https://support.apple.com/kb/DL1572?locale=en_US">Apple</a>.</p>
+
+<p>Installation goes to:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/System/Library/Java/JavaVirtualMachines/
+</code></pre>
+</div>
+
+<p>We can add it to <strong>jEnv</strong>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+</code></pre>
+</div>
+
+<p>Now, if you check versions again:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ jenv versions
+system
+  1.6
+  1.6.0.65
+  1.8
+  1.8.0.131
+  oracle64-1.6.0.65
+* oracle64-1.8.0.131 (set by /Users/user/.java-version)
+</code></pre>
+</div>
+
+<p>Ok, so far I am happy.</p>
+
+<p>In case you need <strong>Java 7</strong>, you can install it from <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Oracle</a>.</p>
+
+<p>It is installed in:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>/Library/Java/JavaVirtualMachines/
+</code></pre>
+</div>
+<p>And add it to <strong>jEnv</strong>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
+</code></pre>
+</div>
+
+<p>I have <strong>Java 8</strong>, as you could see, but if you do not, you can install it from <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Oracle</a>.</p>
+
+<p>And, add it to <strong>jEnv</strong>:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
+</code></pre>
+</div>
+
+<p><strong>Java</strong> 7 and 8 you can also install using <a href="http://gillesfabio.github.io/homebrew-cask-homepage/">Homebrew Cask</a>:</p>
+
+<p>If you don’t have <strong>Homebrew Cask</strong> installed, you can easily do that:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>brew update
+brew tap caskroom/cask
+brew install brew-cask
+</code></pre>
+</div>
+<p>Now, let’s check if there is already java 7:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>brew tap caskroom/versions
+brew cask info java7
+</code></pre>
+</div>
+
+<p>Now that we have all versions installed and added to <strong>jEnv</strong>, we just need to select them.</p>
+
+<p><strong>jEnv</strong> helps there.</p>
+
+<p>To select a specific version we run:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jenv local [version]
+</code></pre>
+</div>
+<p>For example:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jenv local oracle64-1.6.0.65
+</code></pre>
+</div>
+
+<p>If we check what is the selected <strong>Java</strong> version:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>$ java -version
+java version "1.6.0_65"
+Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
+Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode)
+</code></pre>
+</div>
+
+<p><strong>jEnv</strong> comes with some more handy commands. You can select a default version with:</p>
+
+<div class="highlighter-rouge"><pre class="highlight"><code>jenv global [version]
+</code></pre>
+</div>
+
+<p>You can also set a version of Java to certain directories by creating a file <code class="highlighter-rouge">.java-version</code> with content of the version, for instance, <code class="highlighter-rouge">oracle64-1.6.0.65</code>. <strong>jEnv</strong> will make sure to use that local version when you change to this directory.</p>
+
+
+      <div class="backnext btnbottom">
+                <div class="back">
+        <div class="bpointer"><a href="/works/softwareforen-podcast.html"
+         class="button small" title="Back">&lt; Back</a></div>
+         <!-- class="icon fa-backward" title="Back"></a></div> -->
+        <div class="btitle"><a href="/works/softwareforen-podcast.html">Softwareforen Podcast</a></div>
+        </div>
+        <div class="next">
+        <div class="npointer"><a href="/works/Is-QA-a-verb.html"
+         class="button small" title="Next">Next &gt;</a></div>
+         <!-- class="icon fa-forward" title="Next"></a></div> -->
+        <div class="ntitle"><a href="/works/Is-QA-a-verb.html">Is QA a verb?</a></div>
+        </div>
+
+      </div>
+      <script>
+      document.body.onkeyup = function(e){
+        if (e.keyCode == '37') { window.location = '/works/softwareforen-podcast.html'; }
+        if (e.keyCode == '39') { window.location = '/works/Is-QA-a-verb.html'; }
+      };
+      </script>
+
+  
+    </div>
+  </section>
+
+
+      </article>
+
+      <!-- Footer -->
+<footer id="footer">
+  <ul class="icons">
+    <li><a target="_blank" href="https://twitter.com/milan_kuveljic" class="icon fa-twitter"
+           ><span class="label">twitter</span></a></li>
+    <li><a target="_blank" href="https://github.com/millanium" class="icon fa-github"
+           ><span class="label">github</span></a></li>
+    <li><a target="_blank" href="https://linkedin.com/in/milankuveljic" class="icon fa-linkedin-square"
+           ><span class="label">linkedin-square</span></a></li>
+    <li><a target="_blank" href="https://facebook.com/milan.kuveljic" class="icon fa-facebook-official"
+           ><span class="label">facebook-official</span></a></li>
+    <li><a target="_blank" href="/contact/" class="icon fa-envelope"
+           ><span class="label">E-mail</span></a></li>
+    <li><a target="_blank" href="https://stackoverflow.com/users/2154887/mika" class="icon fa-stack-overflow"
+           ><span class="label">stack-overflow</span></a></li>
+    <li><a target="_blank" href="https://foursquare.com/mikathegreat" class="icon fa-foursquare"
+           ><span class="label">foursquare</span></a></li>
+    <li><a target="_blank" href="https://soundcloud.com/mikathegreat" class="icon fa-soundcloud"
+           ><span class="label">soundcloud</span></a></li>
+    <li><a target="_blank" href="mikathegreat" class="icon fa-disqus"
+           ><span class="label">disqus</span></a></li>
+  </ul>
+  <ul class="copyright">
+    <li>&copy; 2012,
+    2018
+      Milan Kuveljic</li>
+    <li><a href="/credits/">Credits</a></li>
+  </ul>
+</footer>
+
+
+      <!-- Scripts -->
+<script src="/js/jquery.min.js"></script>
+<script src="/js/jquery.scrollex.min.js"></script>
+<script src="/js/jquery.scrolly.min.js"></script>
+<script src="/js/skel.min.js"></script>
+<script src="/js/util.js"></script>
+<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
+<script src="/js/main.js"></script>
+
+    </div>
+
+  </body>
+
+</html>

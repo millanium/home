@@ -5,8 +5,8 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 16 Jan 2018 18:59:41 +0100</pubDate>
-    <lastBuildDate>Tue, 16 Jan 2018 18:59:41 +0100</lastBuildDate>
+    <pubDate>Mon, 05 Mar 2018 19:33:30 +0100</pubDate>
+    <lastBuildDate>Mon, 05 Mar 2018 19:33:30 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -29,6 +29,155 @@ After the talk we have recored a short podcast with Dr. André Köhler.&lt;/p&gt
         <pubDate>Mon, 23 Oct 2017 00:00:00 +0200</pubDate>
         <link>http://testingin.space/works/softwareforen-podcast.html</link>
         <guid isPermaLink="true">http://testingin.space/works/softwareforen-podcast.html</guid>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>Who needs more Java versions on Mac?</title>
+        <description>&lt;p&gt;As a nerd, I always tend to use the latest technologies and try them out in experimental ways, but I never wanted to do that with the old ones.
+I installed recently one media application which required &lt;strong&gt;Java 6&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;Java 6&lt;/strong&gt;? Huh, that’s like 2006.&lt;/p&gt;
+
+&lt;p&gt;Alright, I needed to keep &lt;strong&gt;Java 8&lt;/strong&gt; for all my other projects while also having &lt;strong&gt;Java 6&lt;/strong&gt; for non work related things.&lt;/p&gt;
+
+&lt;p&gt;A solution that allows this is to use &lt;a href=&quot;http://www.jenv.be/&quot;&gt;jEnv&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; is a simple command line tool that allows you to manage multiple Java versions.
+I will assume you have &lt;strong&gt;Homebrew&lt;/strong&gt; already on your Mac.&lt;/p&gt;
+
+&lt;p&gt;Install &lt;strong&gt;jEnv&lt;/strong&gt; via &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update 
+brew install jenv
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;To make &lt;strong&gt;jEnv&lt;/strong&gt; available from anywhere in your &lt;em&gt;PATH&lt;/em&gt;, you should add following to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; :&lt;/p&gt;
+
+&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;if which jenv &amp;gt; /dev/null; then eval &quot;$(jenv init -)&quot;; fi&lt;/code&gt;&lt;/p&gt;
+
+&lt;p&gt;Now, that you have &lt;strong&gt;jEnv&lt;/strong&gt;, we can check what &lt;strong&gt;Java&lt;/strong&gt; versions are installed:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jenv versions
+ system
+ 1.8
+* oracle64-1.8.0.131 (set by /Users/user/.java-version)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can see that it detected the system &lt;strong&gt;Java&lt;/strong&gt; and 1.8.
+The Asterisk in front of the system version marks the current selection.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/images/install.jpg&quot; width=&quot;1000&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;You can’t install any version of &lt;strong&gt;Java&lt;/strong&gt; with &lt;strong&gt;jEnv&lt;/strong&gt;, so we need to do it other way.&lt;/p&gt;
+
+&lt;p&gt;Initially I needed &lt;strong&gt;Java 6&lt;/strong&gt;, which I downloaded from &lt;a href=&quot;https://support.apple.com/kb/DL1572?locale=en_US&quot;&gt;Apple&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;Installation goes to:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/System/Library/Java/JavaVirtualMachines/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;We can add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now, if you check versions again:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jenv versions
+system
+  1.6
+  1.6.0.65
+  1.8
+  1.8.0.131
+  oracle64-1.6.0.65
+* oracle64-1.8.0.131 (set by /Users/user/.java-version)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Ok, so far I am happy.&lt;/p&gt;
+
+&lt;p&gt;In case you need &lt;strong&gt;Java 7&lt;/strong&gt;, you can install it from &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;Oracle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;It is installed in:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Library/Java/JavaVirtualMachines/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;And add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;I have &lt;strong&gt;Java 8&lt;/strong&gt;, as you could see, but if you do not, you can install it from &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;Oracle&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;And, add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt; 7 and 8 you can also install using &lt;a href=&quot;http://gillesfabio.github.io/homebrew-cask-homepage/&quot;&gt;Homebrew Cask&lt;/a&gt;:&lt;/p&gt;
+
+&lt;p&gt;If you don’t have &lt;strong&gt;Homebrew Cask&lt;/strong&gt; installed, you can easily do that:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update
+brew tap caskroom/cask
+brew install brew-cask
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;Now, let’s check if there is already java 7:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap caskroom/versions
+brew cask info java7
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;Now that we have all versions installed and added to &lt;strong&gt;jEnv&lt;/strong&gt;, we just need to select them.&lt;/p&gt;
+
+&lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; helps there.&lt;/p&gt;
+
+&lt;p&gt;To select a specific version we run:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv local [version]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+&lt;p&gt;For example:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv local oracle64-1.6.0.65
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;If we check what is the selected &lt;strong&gt;Java&lt;/strong&gt; version:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java -version
+java version &quot;1.6.0_65&quot;
+Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
+Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode)
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; comes with some more handy commands. You can select a default version with:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv global [version]
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
+
+&lt;p&gt;You can also set a version of Java to certain directories by creating a file &lt;code class=&quot;highlighter-rouge&quot;&gt;.java-version&lt;/code&gt; with content of the version, for instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;oracle64-1.6.0.65&lt;/code&gt;. &lt;strong&gt;jEnv&lt;/strong&gt; will make sure to use that local version when you change to this directory.&lt;/p&gt;
+
+</description>
+        <pubDate>Sat, 15 Jul 2017 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/works/who-needs-more-java-versions-on-mac.html</link>
+        <guid isPermaLink="true">http://testingin.space/works/who-needs-more-java-versions-on-mac.html</guid>
         
         
         <category>works</category>
