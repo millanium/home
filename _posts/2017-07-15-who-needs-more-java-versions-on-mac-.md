@@ -24,19 +24,21 @@ I will assume you have **Homebrew** already on your Mac.
 
 Install **jEnv** via [Homebrew](http://brew.sh/):
  
-```
+```bash
 brew update 
 brew install jenv
 ```
 
-To make **jEnv** available from anywhere in your *PATH*, you should add following to your `.bash_profile` :
+To make **jEnv** available from anywhere in your *PATH*, you should add following to `.bash_profile` :
 
-```if which jenv > /dev/null; then eval "$(jenv init -)"; fi```
+```groovy
+if which jenv > /dev/null; then eval "$(jenv init -)"; fi
+```
 
 
 Now, that you have **jEnv**, we can check what **Java** versions are installed:
 
-```
+```bash
 $ jenv versions
  system
  1.8
@@ -55,19 +57,19 @@ Initially I needed **Java 6**, which I downloaded from [Apple](https://support.a
 
 Installation goes to:
 
-```
+```bash
 /System/Library/Java/JavaVirtualMachines/
 ```
 
 We can add it to **jEnv**:
 
-```
+```bash
 jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
 ```
 
 Now, if you check versions again:
 
-```
+```bash
 $ jenv versions
 system
   1.6
@@ -84,12 +86,12 @@ In case you need **Java 7**, you can install it from [Oracle](http://www.oracle.
 
 It is installed in:
 
-```
+```bash
 /Library/Java/JavaVirtualMachines/
 ```
 And add it to **jEnv**:
 
-```
+```bash
 jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
 ```
 
@@ -97,7 +99,7 @@ I have **Java 8**, as you could see, but if you do not, you can install it from 
 
 And, add it to **jEnv**:
 
-```
+```bash
 jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
 ```
 
@@ -105,14 +107,14 @@ jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
 
 If you don't have **Homebrew Cask** installed, you can easily do that:
 
-```
+```bash
 brew update
 brew tap caskroom/cask
 brew install brew-cask
 ```
 Now, let's check if there is already java 7:
 
-```
+```bash
 brew tap caskroom/versions
 brew cask info java7
 ```
@@ -124,18 +126,18 @@ Now that we have all versions installed and added to **jEnv**, we just need to s
 
 To select a specific version we run:
 
-```
+```bash
 jenv local [version]
 ```
 For example:
 
-```
+```bash
 jenv local oracle64-1.6.0.65
 ```
 
 If we check what is the selected **Java** version:
 
-```
+```bash
 $ java -version
 java version "1.6.0_65"
 Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
@@ -144,7 +146,7 @@ Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode)
 
 **jEnv** comes with some more handy commands. You can select a default version with:
 
-```
+```bash
 jenv global [version]
 ```
 

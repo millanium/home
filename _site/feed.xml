@@ -5,8 +5,8 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 05 Mar 2018 19:33:30 +0100</pubDate>
-    <lastBuildDate>Mon, 05 Mar 2018 19:33:30 +0100</lastBuildDate>
+    <pubDate>Tue, 06 Mar 2018 18:15:39 +0100</pubDate>
+    <lastBuildDate>Tue, 06 Mar 2018 18:15:39 +0100</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -51,21 +51,23 @@ I will assume you have &lt;strong&gt;Homebrew&lt;/strong&gt; already on your Mac
 
 &lt;p&gt;Install &lt;strong&gt;jEnv&lt;/strong&gt; via &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update 
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update 
 brew install jenv
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
-&lt;p&gt;To make &lt;strong&gt;jEnv&lt;/strong&gt; available from anywhere in your &lt;em&gt;PATH&lt;/em&gt;, you should add following to your &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; :&lt;/p&gt;
+&lt;p&gt;To make &lt;strong&gt;jEnv&lt;/strong&gt; available from anywhere in your &lt;em&gt;PATH&lt;/em&gt;, you should add following to &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; :&lt;/p&gt;
 
-&lt;p&gt;&lt;code class=&quot;highlighter-rouge&quot;&gt;if which jenv &amp;gt; /dev/null; then eval &quot;$(jenv init -)&quot;; fi&lt;/code&gt;&lt;/p&gt;
+&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jenv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/dev/&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$(jenv init -)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;
+&lt;/code&gt;&lt;/pre&gt;
+&lt;/div&gt;
 
 &lt;p&gt;Now, that you have &lt;strong&gt;jEnv&lt;/strong&gt;, we can check what &lt;strong&gt;Java&lt;/strong&gt; versions are installed:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jenv versions
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jenv versions
  system
  1.8
-* oracle64-1.8.0.131 (set by /Users/user/.java-version)
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; oracle64-1.8.0.131 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;by /Users/user/.java-version&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -80,26 +82,26 @@ The Asterisk in front of the system version marks the current selection.&lt;/p&g
 
 &lt;p&gt;Installation goes to:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/System/Library/Java/JavaVirtualMachines/
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/System/Library/Java/JavaVirtualMachines/
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;We can add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;Now, if you check versions again:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ jenv versions
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jenv versions
 system
   1.6
   1.6.0.65
   1.8
   1.8.0.131
   oracle64-1.6.0.65
-* oracle64-1.8.0.131 (set by /Users/user/.java-version)
+&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; oracle64-1.8.0.131 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;by /Users/user/.java-version&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -109,12 +111,12 @@ system
 
 &lt;p&gt;It is installed in:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Library/Java/JavaVirtualMachines/
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Library/Java/JavaVirtualMachines/
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;And add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -122,7 +124,7 @@ system
 
 &lt;p&gt;And, add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
@@ -130,14 +132,14 @@ system
 
 &lt;p&gt;If you don’t have &lt;strong&gt;Homebrew Cask&lt;/strong&gt; installed, you can easily do that:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update
 brew tap caskroom/cask
 brew install brew-cask
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;Now, let’s check if there is already java 7:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap caskroom/versions
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap caskroom/versions
 brew cask info java7
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
@@ -148,27 +150,27 @@ brew cask info java7
 
 &lt;p&gt;To select a specific version we run:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv local [version]
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv &lt;span class=&quot;nb&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;version]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 &lt;p&gt;For example:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv local oracle64-1.6.0.65
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;oracle64-1.6.0.65
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;If we check what is the selected &lt;strong&gt;Java&lt;/strong&gt; version:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ java -version
-java version &quot;1.6.0_65&quot;
-Java(TM) SE Runtime Environment (build 1.6.0_65-b14-462-11M4609)
-Java HotSpot(TM) 64-Bit Server VM (build 20.65-b04-462, mixed mode)
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;java -version
+java version &lt;span class=&quot;s2&quot;&gt;&quot;1.6.0_65&quot;&lt;/span&gt;
+Java&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;TM&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; SE Runtime Environment &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 1.6.0_65-b14-462-11M4609&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
+Java HotSpot&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;TM&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 64-Bit Server VM &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 20.65-b04-462, mixed mode&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
 &lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; comes with some more handy commands. You can select a default version with:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv global [version]
+&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv global &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;version]
 &lt;/code&gt;&lt;/pre&gt;
 &lt;/div&gt;
 
