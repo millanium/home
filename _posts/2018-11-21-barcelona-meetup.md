@@ -1,7 +1,7 @@
 ---
 priority: 0.1
-title: Mobile Test Architectures
-excerpt: Meetup in Barcelona
+title: Meetup in Barcelona
+excerpt: Mobile Test Architectures
 categories: speaking
 layout: posts
 comments: true
