@@ -5,9 +5,122 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 30 Dec 2018 10:58:25 +0100</pubDate>
-    <lastBuildDate>Sun, 30 Dec 2018 10:58:25 +0100</lastBuildDate>
+    <pubDate>Sun, 29 Sep 2019 22:56:45 +0200</pubDate>
+    <lastBuildDate>Sun, 29 Sep 2019 22:56:45 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>TACON Leipzig</title>
+        <description>
+</description>
+        <pubDate>Fri, 27 Sep 2019 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/tacon-leipzig.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/tacon-leipzig.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Leadership Congress New York</title>
+        <description>
+</description>
+        <pubDate>Thu, 27 Jun 2019 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/test-leadership-congress.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/test-leadership-congress.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>QA Financial London</title>
+        <description>
+</description>
+        <pubDate>Wed, 12 Jun 2019 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/qa-financial.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/qa-financial.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>German Testing Day</title>
+        <description>
+</description>
+        <pubDate>Fri, 07 Jun 2019 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/german-testing-day.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/german-testing-day.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Ministry of Testing - Testing Ask Me Anything</title>
+        <description>&lt;p&gt;I was guesting this month at Ministry of Testing - &lt;a href=&quot;https://www.ministryoftesting.com/dojo/series/testing-ask-me-anything&quot;&gt;Testing AMA&lt;/a&gt;.
+We had a great conversation about software testing in regulative world. We talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;How modern software development tools and processes are enabling digital bank to be competitive, but without sacrificing security and risk management&lt;/li&gt;
+  &lt;li&gt;How Agile process and Regulations stay friendly all the way&lt;/li&gt;
+  &lt;li&gt;Where is Automation helping to be effective but still compliant&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;You can listen it &lt;a href=&quot;https://www.ministryoftesting.com/dojo/series/testing-ask-me-anything/lessons/testing-ask-me-anything-testing-in-compliance-and-regulation-milan-kuveljic&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 12 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/works/Testing-AMA-MoT.html</link>
+        <guid isPermaLink="true">http://testingin.space/works/Testing-AMA-MoT.html</guid>
+        
+        
+        <category>works</category>
+        
+      </item>
+    
+      <item>
+        <title>IT für Versicherungen Leipzig</title>
+        <description>
+</description>
+        <pubDate>Tue, 11 Dec 2018 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/speaking/softwareforen-leipzig.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/softwareforen-leipzig.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Mobile Test Architectures</title>
+        <description>
+</description>
+        <pubDate>Wed, 21 Nov 2018 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/speaking/barcelona-meetup.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/barcelona-meetup.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Agile Testing Days Potsdam</title>
+        <description>
+</description>
+        <pubDate>Thu, 08 Nov 2018 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/speaking/agile-testing-days.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/agile-testing-days.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
     
       <item>
         <title>How deep is the Space?</title>
@@ -42,199 +155,6 @@ After the talk we have recored a short podcast with Dr. André Köhler.&lt;/p&gt
         <pubDate>Mon, 23 Oct 2017 00:00:00 +0200</pubDate>
         <link>http://testingin.space/works/softwareforen-podcast.html</link>
         <guid isPermaLink="true">http://testingin.space/works/softwareforen-podcast.html</guid>
-        
-        
-        <category>works</category>
-        
-      </item>
-    
-      <item>
-        <title>Who needs more Java versions on Mac?</title>
-        <description>&lt;p&gt;As a nerd, I always tend to use the latest technologies and try them out in experimental ways, but I never wanted to do that with the old ones.
-I installed recently one media application which required &lt;strong&gt;Java 6&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Java 6&lt;/strong&gt;? Huh, that’s like 2006.&lt;/p&gt;
-
-&lt;p&gt;Alright, I needed to keep &lt;strong&gt;Java 8&lt;/strong&gt; for all my other projects while also having &lt;strong&gt;Java 6&lt;/strong&gt; for non work related things.&lt;/p&gt;
-
-&lt;p&gt;A solution that allows this is to use &lt;a href=&quot;http://www.jenv.be/&quot;&gt;jEnv&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; is a simple command line tool that allows you to manage multiple Java versions.
-I will assume you have &lt;strong&gt;Homebrew&lt;/strong&gt; already on your Mac.&lt;/p&gt;
-
-&lt;p&gt;Install &lt;strong&gt;jEnv&lt;/strong&gt; via &lt;a href=&quot;http://brew.sh/&quot;&gt;Homebrew&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update 
-brew install jenv
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;To make &lt;strong&gt;jEnv&lt;/strong&gt; available from anywhere in your &lt;em&gt;PATH&lt;/em&gt;, you should add following to &lt;code class=&quot;highlighter-rouge&quot;&gt;.bash_profile&lt;/code&gt; :&lt;/p&gt;
-
-&lt;div class=&quot;language-groovy highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;k&quot;&gt;if&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;which&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;jenv&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;&amp;gt;&lt;/span&gt; &lt;span class=&quot;s&quot;&gt;/dev/&lt;/span&gt;&lt;span class=&quot;kc&quot;&gt;null&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;then&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;eval&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&quot;$(jenv init -)&quot;&lt;/span&gt;&lt;span class=&quot;o&quot;&gt;;&lt;/span&gt; &lt;span class=&quot;n&quot;&gt;fi&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now, that you have &lt;strong&gt;jEnv&lt;/strong&gt;, we can check what &lt;strong&gt;Java&lt;/strong&gt; versions are installed:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jenv versions
- system
- 1.8
-&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; oracle64-1.8.0.131 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;by /Users/user/.java-version&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We can see that it detected the system &lt;strong&gt;Java&lt;/strong&gt; and 1.8.
-The Asterisk in front of the system version marks the current selection.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/install.jpg&quot; width=&quot;1000&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;You can’t install any version of &lt;strong&gt;Java&lt;/strong&gt; with &lt;strong&gt;jEnv&lt;/strong&gt;, so we need to do it other way.&lt;/p&gt;
-
-&lt;p&gt;Initially I needed &lt;strong&gt;Java 6&lt;/strong&gt;, which I downloaded from &lt;a href=&quot;https://support.apple.com/kb/DL1572?locale=en_US&quot;&gt;Apple&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;Installation goes to:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/System/Library/Java/JavaVirtualMachines/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;We can add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now, if you check versions again:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;jenv versions
-system
-  1.6
-  1.6.0.65
-  1.8
-  1.8.0.131
-  oracle64-1.6.0.65
-&lt;span class=&quot;k&quot;&gt;*&lt;/span&gt; oracle64-1.8.0.131 &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;set &lt;/span&gt;by /Users/user/.java-version&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Ok, so far I am happy.&lt;/p&gt;
-
-&lt;p&gt;In case you need &lt;strong&gt;Java 7&lt;/strong&gt;, you can install it from &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;Oracle&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;It is installed in:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/Library/Java/JavaVirtualMachines/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;And add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;I have &lt;strong&gt;Java 8&lt;/strong&gt;, as you could see, but if you do not, you can install it from &lt;a href=&quot;http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html&quot;&gt;Oracle&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;And, add it to &lt;strong&gt;jEnv&lt;/strong&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;Java&lt;/strong&gt; 7 and 8 you can also install using &lt;a href=&quot;http://gillesfabio.github.io/homebrew-cask-homepage/&quot;&gt;Homebrew Cask&lt;/a&gt;:&lt;/p&gt;
-
-&lt;p&gt;If you don’t have &lt;strong&gt;Homebrew Cask&lt;/strong&gt; installed, you can easily do that:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew update
-brew tap caskroom/cask
-brew install brew-cask
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;Now, let’s check if there is already java 7:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;brew tap caskroom/versions
-brew cask info java7
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;Now that we have all versions installed and added to &lt;strong&gt;jEnv&lt;/strong&gt;, we just need to select them.&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; helps there.&lt;/p&gt;
-
-&lt;p&gt;To select a specific version we run:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv &lt;span class=&quot;nb&quot;&gt;local&lt;/span&gt; &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;version]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-&lt;p&gt;For example:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv &lt;span class=&quot;nb&quot;&gt;local &lt;/span&gt;oracle64-1.6.0.65
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;If we check what is the selected &lt;strong&gt;Java&lt;/strong&gt; version:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;&lt;span class=&quot;gp&quot;&gt;$ &lt;/span&gt;java -version
-java version &lt;span class=&quot;s2&quot;&gt;&quot;1.6.0_65&quot;&lt;/span&gt;
-Java&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;TM&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; SE Runtime Environment &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 1.6.0_65-b14-462-11M4609&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-Java HotSpot&lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;TM&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt; 64-Bit Server VM &lt;span class=&quot;o&quot;&gt;(&lt;/span&gt;build 20.65-b04-462, mixed mode&lt;span class=&quot;o&quot;&gt;)&lt;/span&gt;
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;&lt;strong&gt;jEnv&lt;/strong&gt; comes with some more handy commands. You can select a default version with:&lt;/p&gt;
-
-&lt;div class=&quot;language-bash highlighter-rouge&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;jenv global &lt;span class=&quot;o&quot;&gt;[&lt;/span&gt;version]
-&lt;/code&gt;&lt;/pre&gt;
-&lt;/div&gt;
-
-&lt;p&gt;You can also set a version of Java to certain directories by creating a file &lt;code class=&quot;highlighter-rouge&quot;&gt;.java-version&lt;/code&gt; with content of the version, for instance, &lt;code class=&quot;highlighter-rouge&quot;&gt;oracle64-1.6.0.65&lt;/code&gt;. &lt;strong&gt;jEnv&lt;/strong&gt; will make sure to use that local version when you change to this directory.&lt;/p&gt;
-
-</description>
-        <pubDate>Sat, 15 Jul 2017 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/works/who-needs-more-java-versions-on-mac.html</link>
-        <guid isPermaLink="true">http://testingin.space/works/who-needs-more-java-versions-on-mac.html</guid>
-        
-        
-        <category>works</category>
-        
-      </item>
-    
-      <item>
-        <title>Is QA a verb?</title>
-        <description>&lt;p&gt;A few months ago I joined a startup as QA Engineer. We have already established quality culture across the development teams, nonetheless, the company is still in the early stage, and many new people are joining every month.
-It was my first month there, and it was my first job in a product-oriented company, after few years spent in consultancy.
-I was still learning new terminology, especially the one related to the product domain.&lt;/p&gt;
-
-&lt;p&gt;One of my team fellows came to me one afternoon and asked: “Hey, we have this story to be deployed today, do you think you can QA it quickly?” 
-I stayed puzzled for a bit, but then I realized he wanted me to test some change.&lt;/p&gt;
-
-&lt;p&gt;Is QA a verb?&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Quality assurance (QA)&lt;/strong&gt; &lt;em&gt;is a way of preventing mistakes or defects in manufactured products and avoiding problems when delivering solutions or services to customers; which ISO 9000 defines as “part of quality management focused on providing confidence that quality
-requirements will be fulfilled”. This defect prevention in quality assurance differs subtly from defect detection and rejection in quality control, and has been referred to as a shift left as it focuses on quality earlier in the process.&lt;/em&gt;&lt;/p&gt;
-
-&lt;p&gt;Even though it’s an old definition, it still explains the fundamentals.&lt;/p&gt;
-
-&lt;p&gt;From Software perspective:&lt;/p&gt;
-
-&lt;p&gt;&lt;strong&gt;Software Quality Assurance&lt;/strong&gt; consists of a means of monitoring the software engineering processes and methods used to ensure quality.&lt;/p&gt;
-
-&lt;p&gt;Having a look at Wikipedia, apparently QA stands for Quality Assurance and it looks like it’s a &lt;strong&gt;noun&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Now, why am I bragging about it?&lt;/p&gt;
-
-&lt;p&gt;First, there is a misunderstanding in fundamentals.
-QA is not testing. Testing is one of the actions QA Engineers perform in their daily work among others, risk analyses, test implementation, test data generation, bug triage, monitoring, automation, to improve development process. Quality stands in front of all mentioned actions.&lt;/p&gt;
-
-&lt;p&gt;Quality and particularly, assuring quality of software implementation is in the ownership of development teams.
-In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the highest quality standards. It is a team effort to understand how each requirement, whether technical or functional will produce the value.&lt;/p&gt;
-
-&lt;p&gt;So, which exactly part do you want me to check?&lt;/p&gt;
-
-</description>
-        <pubDate>Thu, 25 Sep 2014 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/works/Is-QA-a-verb.html</link>
-        <guid isPermaLink="true">http://testingin.space/works/Is-QA-a-verb.html</guid>
         
         
         <category>works</category>
