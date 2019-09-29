@@ -19,7 +19,7 @@ In my current role, I am working with distributed engineering teams on building 
 
 I am active in the testing community, through our [Slack](https://testersio.slack.com) channel. I share my thoughts @[milan_kuveljic](https://twitter.com/milan_kuveljic), feel free to reach out. I also write about ideas, tools, processes and everything that matters to our [work](/works)
 
-I enjoy speaking publicly at the conferences and meetups where I share my knowledge and experience.
+I enjoy speaking publicly at the conferences and meetups where I share my knowledge and experience. You can check my previous speaking [engagements](/speaking).
 
 You can contact me via below social networks.
 
