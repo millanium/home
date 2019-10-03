@@ -3,7 +3,7 @@ title: Softwareforen Podcast
 excerpt: Quality Assurance in digital banking
 priority: 0.7
 categories:
-  - works
+  - work
 background-image: mic.jpg
 ---
 

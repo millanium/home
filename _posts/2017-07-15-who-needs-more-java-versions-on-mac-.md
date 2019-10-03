@@ -3,7 +3,7 @@ title: Who needs more Java versions on Mac?
 excerpt: Java
 priority: 0.5
 categories:
-  - works
+  - work
 background-image: java.jpg
 #date/lastupdated are optional
 #date: 2018-01-21 20:08:12

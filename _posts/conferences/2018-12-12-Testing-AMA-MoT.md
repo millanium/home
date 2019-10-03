@@ -3,7 +3,7 @@ title: Ministry of Testing - Testing Ask Me Anything
 excerpt: Testing in Compliance and Regulation
 priority: 0.7
 categories:
-  - works
+  - work
 background-image: mic.jpg
 ---
 

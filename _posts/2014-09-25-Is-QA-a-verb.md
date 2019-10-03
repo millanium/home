@@ -2,7 +2,7 @@
 priority: 0.1
 title: Is QA a verb?
 excerpt: Quality Assurance
-categories: works
+categories: work 
 layout: post
 comments: true
 background-image: words.jpg
