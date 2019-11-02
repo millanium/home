@@ -2,7 +2,7 @@
 priority: 0.7
 title: How deep is the Space?
 excerpt: Space
-categories: topics
+categories: spaces
 layout: post
 background-image: space.jpg
 #date: 2018-01-21 20:08:12
