@@ -1,17 +1,17 @@
 ---
 priority: 0.1
-title: TACON Leipzig
+title: QA Financial London
 excerpt: Automation in Mobile Testing
 categories: speaking
 layout: conferences
 comments: true
-background-image: leipzig.jpg
+background-image: london.jpg
 ---
 
-<img src="/images/tacon.png"
+<img src="/images/meridien.jpg"
      style="float: right; width: 220px" />
 
-I was invited as a keynote speaker at [TACON 2019](https://tacon-konferenz.de/rueckblick-3/). I presented my talk [Automation in Mobile Testing](https://speakerdeck.com/milan_kuveljic/automation-in-mobile-testing-471a6cc9-db49-4597-b0ce-9447deacd987). 
+I was invited to speak at [QA Financial London Forum](https://www.qa-financial.com/events/qa-automation-for-mobiles-apps-london-2019). I presented my talk [Automation in Mobile Testing](https://speakerdeck.com/milan_kuveljic/automation-in-mobile-testing). 
 I talked about:
 
 - Automation principles
