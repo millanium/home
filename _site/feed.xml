@@ -5,8 +5,8 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sat, 02 Nov 2019 14:00:12 +0100</pubDate>
-    <lastBuildDate>Sat, 02 Nov 2019 14:00:12 +0100</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2020 16:55:43 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2020 16:55:43 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
     
       <item>
@@ -98,7 +98,13 @@ We had a great conversation about software testing in regulative world. We talke
     
       <item>
         <title>IT für Versicherungen Leipzig</title>
-        <description>
+        <description>&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://www.assekuranz-messekongress.de/portal/media/messekongresse_2/it/dokumente_2/2018_mkit_dokumente/MKIT_Programm_2018.pdf&quot;&gt;IT für Versicherungen&lt;/a&gt; in Leipzig with my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/test-leadership-in-agile-world&quot;&gt;Test Leadership in Agile World&lt;/a&gt;. I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Challenges for test managers in agile transformation&lt;/li&gt;
+  &lt;li&gt;How to move around and provide different values to the teams&lt;/li&gt;
+  &lt;li&gt;How does the role change in terms of leadership&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Tue, 11 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://testingin.space/speaking/softwareforen-leipzig.html</link>
@@ -111,7 +117,16 @@ We had a great conversation about software testing in regulative world. We talke
     
       <item>
         <title>Meetup in Barcelona</title>
-        <description>
+        <description>&lt;p&gt;One of the first series of &lt;a href=&quot;https://www.meetup.com/meetup-group-RaPHYvDN/events/259065290/&quot;&gt;N26 meetups in Barcelona&lt;/a&gt;, actually the very 2nd one, where I talked about &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/mobile-test-architecture&quot;&gt;Mobile test architecture&lt;/a&gt; .
+My talk was mainly about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automation principles&lt;/li&gt;
+  &lt;li&gt;How to scope your automation for mobile apps&lt;/li&gt;
+  &lt;li&gt;How to design the architecture&lt;/li&gt;
+  &lt;li&gt;How to decide and choose tools&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing for mobile&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Wed, 21 Nov 2018 00:00:00 +0100</pubDate>
         <link>http://testingin.space/speaking/barcelona-meetup.html</link>
@@ -124,7 +139,14 @@ We had a great conversation about software testing in regulative world. We talke
     
       <item>
         <title>Agile Testing Days Potsdam</title>
-        <description>
+        <description>&lt;p&gt;I have taken a part at one of the biggest European Testing Conferences with my talk  &lt;a href=&quot;https://agiletestingdays.com/2018/session/onboarding-engineers-1/&quot;&gt;Onboarding Engineers&lt;/a&gt;.
+I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Why is it important to invest in onboarding&lt;/li&gt;
+  &lt;li&gt;How to create a structured personalized space for new engineers&lt;/li&gt;
+  &lt;li&gt;What are the values for new joiners and organization.&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Thu, 08 Nov 2018 00:00:00 +0100</pubDate>
         <link>http://testingin.space/speaking/agile-testing-days.html</link>
