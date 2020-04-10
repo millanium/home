@@ -5,9 +5,55 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Fri, 10 Apr 2020 22:07:30 +0200</pubDate>
-    <lastBuildDate>Fri, 10 Apr 2020 22:07:30 +0200</lastBuildDate>
+    <pubDate>Fri, 10 Apr 2020 22:29:36 +0200</pubDate>
+    <lastBuildDate>Fri, 10 Apr 2020 22:29:36 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>QA Financial Forum Milano</title>
+        <description>&lt;p&gt;I was invited as a keynote speaker at &lt;a href=&quot;https://www.qa-financial.com/events/the-qa-financial-forum-milano-2020&quot;&gt;QA Financial Forum Milano&lt;/a&gt;. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/test-architecture-for-global-platforms-qa-financial-forum-milano-2020&quot;&gt;Test Architecture for Global Platforms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test architectures and challenges&lt;/li&gt;
+  &lt;li&gt;How to design global platform&lt;/li&gt;
+  &lt;li&gt;What are the tools and frameoworks that can help&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/speaking/qa-financial-milano.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/qa-financial-milano.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Test Busters Night Vienna</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/testbusters.png&quot; style=&quot;float: right; width: 220px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://meetup.com/Agile-Testautomation/events/264622043/&quot;&gt;Test Busters Night&lt;/a&gt; in Vienna. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/test-architecture-for-global-platforms&quot;&gt;Test Architecture for Global Platforms&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test architectures and challenges&lt;/li&gt;
+  &lt;li&gt;How to design global platform&lt;/li&gt;
+  &lt;li&gt;What are the tools and frameoworks that can help&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Thu, 17 Oct 2019 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/vienna-meetup.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/vienna-meetup.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
     
       <item>
         <title>TACON Leipzig</title>
@@ -54,7 +100,7 @@ I talked about:&lt;/p&gt;
       </item>
     
       <item>
-        <title>QA Financial London</title>
+        <title>QA Financial Forum London</title>
         <description>&lt;p&gt;&lt;img src=&quot;/images/meridien.jpg&quot; style=&quot;float: right; width: 220px&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;I was invited to speak at &lt;a href=&quot;https://www.qa-financial.com/events/qa-automation-for-mobiles-apps-london-2019&quot;&gt;QA Financial London Forum&lt;/a&gt;. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/automation-in-mobile-testing&quot;&gt;Automation in Mobile Testing&lt;/a&gt;. 
@@ -179,39 +225,6 @@ My talk was mainly about:&lt;/p&gt;
         
         
         <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>Agile Testing Days Potsdam</title>
-        <description>&lt;p&gt;I have taken a part at one of the biggest European Testing Conferences with my talk  &lt;a href=&quot;https://agiletestingdays.com/2018/session/onboarding-engineers-1/&quot;&gt;Onboarding Engineers&lt;/a&gt;.
-I talked about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Why is it important to invest in onboarding&lt;/li&gt;
-  &lt;li&gt;How to create a structured personalized space for new engineers&lt;/li&gt;
-  &lt;li&gt;What are the values for new joiners and organization.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 08 Nov 2018 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/agile-testing-days.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/agile-testing-days.html</guid>
-        
-        
-        <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>How deep is the Space?</title>
-        <description>&lt;p&gt;It is hard to imagine the utter size of cosmos. But if we look at some exact science, like physics, we could get an idea.&lt;/p&gt;
-</description>
-        <pubDate>Tue, 06 Mar 2018 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/spaces/how-deep-is-the-space.html</link>
-        <guid isPermaLink="true">http://testingin.space/spaces/how-deep-is-the-space.html</guid>
-        
-        
-        <category>spaces</category>
         
       </item>
     

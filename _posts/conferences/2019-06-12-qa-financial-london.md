@@ -1,6 +1,6 @@
 ---
 priority: 0.1
-title: QA Financial London
+title: QA Financial Forum London
 excerpt: Automation in Mobile Testing
 categories: speaking
 layout: conferences
