@@ -17,7 +17,7 @@ In the last decade I have gained practical experience in software testing and qu
 
 In my current role, I am working with distributed engineering teams on building the highest software quality in mobile banking by following good practices in quality engineering.
 
-I am active in the testing community, through our [Slack](https://testersio.slack.com) channel. I share my thoughts @[milan_kuveljic](https://twitter.com/milan_kuveljic), feel free to reach out. I also write about ideas, tools, processes and everything that matters to our [work](/works)
+I am active in the testing community, through our [Slack](https://testersio.slack.com) channel. I share my thoughts @[milan_kuveljic](https://twitter.com/milan_kuveljic), feel free to reach out. I also write about ideas, tools, processes and everything that matters to our [work](/work)
 
 I enjoy speaking publicly at the conferences and meetups where I share my knowledge and experience. You can check my previous speaking [engagements](/speaking). If you think I can contribute to your event, conference or a meetup, feel free to [reach out](/contact).
 
