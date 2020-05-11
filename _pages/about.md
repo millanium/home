@@ -21,7 +21,7 @@ I am active in the testing community, through our [Slack](https://testersio.slac
 
 I enjoy speaking publicly at the conferences and meetups where I share my knowledge and experience. You can check my previous speaking [engagements](/speaking). If you think I can contribute to your event, conference or a meetup, feel free to [reach out](/contact).
 
-You can contact me via below social networks.
+You can contact me via below social networks, or check my [resume](/_pages/biography).
 
 
 

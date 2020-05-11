@@ -5,9 +5,22 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Apr 2020 15:00:01 +0200</pubDate>
-    <lastBuildDate>Sun, 12 Apr 2020 15:00:01 +0200</lastBuildDate>
+    <pubDate>Sun, 10 May 2020 13:00:49 +0200</pubDate>
+    <lastBuildDate>Sun, 10 May 2020 13:00:49 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>From QA to Quality Engineering</title>
+        <description>
+</description>
+        <pubDate>Mon, 13 Apr 2020 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/work/From-QA-to-Quality-Engineering-A-Practical-Approach-to-Quality.html</link>
+        <guid isPermaLink="true">http://testingin.space/work/From-QA-to-Quality-Engineering-A-Practical-Approach-to-Quality.html</guid>
+        
+        
+        <category>work</category>
+        
+      </item>
     
       <item>
         <title>QA Financial Forum Milano</title>
@@ -200,28 +213,6 @@ We had a great conversation about software testing in regulative world. We talke
         <pubDate>Tue, 11 Dec 2018 00:00:00 +0100</pubDate>
         <link>http://testingin.space/speaking/softwareforen-leipzig.html</link>
         <guid isPermaLink="true">http://testingin.space/speaking/softwareforen-leipzig.html</guid>
-        
-        
-        <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>Meetup in Barcelona</title>
-        <description>&lt;p&gt;One of the first series of &lt;a href=&quot;https://www.meetup.com/meetup-group-RaPHYvDN/events/259065290/&quot;&gt;N26 meetups in Barcelona&lt;/a&gt;, actually the very 2nd one, where I talked about &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/mobile-test-architecture&quot;&gt;Mobile test architecture&lt;/a&gt; .
-My talk was mainly about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Automation principles&lt;/li&gt;
-  &lt;li&gt;How to scope your automation for mobile apps&lt;/li&gt;
-  &lt;li&gt;How to design the architecture&lt;/li&gt;
-  &lt;li&gt;How to decide and choose tools&lt;/li&gt;
-  &lt;li&gt;How to maintain continuous testing for mobile&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 21 Nov 2018 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/barcelona-meetup.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/barcelona-meetup.html</guid>
         
         
         <category>speaking</category>
