@@ -5,9 +5,50 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 10 May 2020 13:00:49 +0200</pubDate>
-    <lastBuildDate>Sun, 10 May 2020 13:00:49 +0200</lastBuildDate>
+    <pubDate>Sun, 15 Aug 2021 20:55:55 +0200</pubDate>
+    <lastBuildDate>Sun, 15 Aug 2021 20:55:55 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>London TAD Online Meetup</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/london-tad.png&quot; style=&quot;float: right; width: 380px&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://www.meetup.com/londontad/events/270303388/&quot;&gt;Test Automation in DevOps London&lt;/a&gt; online event. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/automation-in-mobile-testing-959161cb-1a41-4967-a836-e8cf8aabd76f&quot;&gt;Automation in Mobile Testing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automation principles&lt;/li&gt;
+  &lt;li&gt;How to scope your automation for mobile apps&lt;/li&gt;
+  &lt;li&gt;How to design the architecture&lt;/li&gt;
+  &lt;li&gt;How to decide and choose tools&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing for mobile&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Tue, 19 May 2020 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/meetup-london.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/meetup-london.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>QA Financial Digital Forum</title>
+        <description>&lt;p&gt;I was invited as a keynote speaker at &lt;a href=&quot;https://www.qa-financial.com/eventsthe-qa-financial-digital-forum-technologies-for-continuous-testing-ai-automation-and-devops&quot;&gt;QA Financial Digital Forum&lt;/a&gt;. I presented my talk &lt;a href=&quot;&quot;&gt;Crafting Regulatory Compliance in Modern Software Development&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about how modern Software Development practices such as CI/CD, automated testing and documentation can craft regulatory compliance as a part of the agile process.&lt;/p&gt;
+
+</description>
+        <pubDate>Tue, 12 May 2020 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/qa-digital-forum.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/qa-digital-forum.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
     
       <item>
         <title>From QA to Quality Engineering</title>
@@ -172,47 +213,6 @@ My talk was mainly about:&lt;/p&gt;
         <pubDate>Thu, 28 Feb 2019 00:00:00 +0100</pubDate>
         <link>http://testingin.space/speaking/newyork-meetup.html</link>
         <guid isPermaLink="true">http://testingin.space/speaking/newyork-meetup.html</guid>
-        
-        
-        <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>Ministry of Testing - Testing Ask Me Anything</title>
-        <description>&lt;p&gt;I was guesting this month at Ministry of Testing - &lt;a href=&quot;https://www.ministryoftesting.com/dojo/series/testing-ask-me-anything&quot;&gt;Testing AMA&lt;/a&gt;.
-We had a great conversation about software testing in regulative world. We talked about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;How modern software development tools and processes are enabling digital bank to be competitive, but without sacrificing security and risk management&lt;/li&gt;
-  &lt;li&gt;How Agile process and Regulations stay friendly all the way&lt;/li&gt;
-  &lt;li&gt;Where is Automation helping to be effective but still compliant&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;You can listen it &lt;a href=&quot;https://www.ministryoftesting.com/dojo/series/testing-ask-me-anything/lessons/testing-ask-me-anything-testing-in-compliance-and-regulation-milan-kuveljic&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
-</description>
-        <pubDate>Wed, 12 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/work/Testing-AMA-MoT.html</link>
-        <guid isPermaLink="true">http://testingin.space/work/Testing-AMA-MoT.html</guid>
-        
-        
-        <category>work</category>
-        
-      </item>
-    
-      <item>
-        <title>IT für Versicherungen Leipzig</title>
-        <description>&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://www.assekuranz-messekongress.de/portal/media/messekongresse_2/it/dokumente_2/2018_mkit_dokumente/MKIT_Programm_2018.pdf&quot;&gt;IT für Versicherungen&lt;/a&gt; in Leipzig with my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/test-leadership-in-agile-world&quot;&gt;Test Leadership in Agile World&lt;/a&gt;. I talked about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Challenges for test managers in agile transformation&lt;/li&gt;
-  &lt;li&gt;How to move around and provide different values to the teams&lt;/li&gt;
-  &lt;li&gt;How does the role change in terms of leadership&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Tue, 11 Dec 2018 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/softwareforen-leipzig.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/softwareforen-leipzig.html</guid>
         
         
         <category>speaking</category>
