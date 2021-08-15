@@ -2,9 +2,27 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
     <url>
       <loc>http://testingin.space/</loc>
-      <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+      <lastmod>2021-08-15T22:04:10+02:00</lastmod>
       <changefreq>monthly</changefreq>
       <priority>1.0</priority>
+    </url>
+    <url>
+      <loc>http://testingin.space/speaking/software-qs-tag.html</loc>
+        <lastmod>2020-12-16T00:00:00+01:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+      <loc>http://testingin.space/speaking/quest4quality-dublin.html</loc>
+        <lastmod>2020-10-28T00:00:00+01:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
+    </url>
+    <url>
+      <loc>http://testingin.space/speaking/seleniumday-anz.html</loc>
+        <lastmod>2020-10-16T00:00:00+02:00</lastmod>
+        <changefreq>monthly</changefreq>
+        <priority>0.1</priority>
     </url>
     <url>
       <loc>http://testingin.space/speaking/meetup-london.html</loc>
@@ -122,67 +140,67 @@
     </url>
     <url>
       <loc>http://testingin.space/about/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/_pages/biography</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.1</priority>
     </url>
     <url>
       <loc>http://testingin.space/contact-success/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/contact-success/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/contact/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/credits/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/spaces/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/speaking/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>
     <url>
       <loc>http://testingin.space/work/</loc>
-        <lastmod>2021-08-15T20:55:55+02:00</lastmod>
+        <lastmod>2021-08-15T22:04:10+02:00</lastmod>
         <changefreq>monthly</changefreq>
         <priority>0.5</priority>
     </url>

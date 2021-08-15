@@ -5,9 +5,76 @@
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
     <link>http://testingin.space/</link>
     <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Aug 2021 20:55:55 +0200</pubDate>
-    <lastBuildDate>Sun, 15 Aug 2021 20:55:55 +0200</lastBuildDate>
+    <pubDate>Sun, 15 Aug 2021 22:04:10 +0200</pubDate>
+    <lastBuildDate>Sun, 15 Aug 2021 22:04:10 +0200</lastBuildDate>
     <generator>Jekyll v3.2.1</generator>
+    
+      <item>
+        <title>Software QS Tag</title>
+        <description>&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://www.imbus.de/en/downloads/software-qs-cast-reihe-2020#i_category-117&quot;&gt;Software QS Tag 2020 organized by Imbus AG&lt;/a&gt; online event. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/test-architecture-for-global-platforms-software-qs-tag-2020&quot;&gt;Test Architecture For Global Platform&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test architectures and challenges&lt;/li&gt;
+  &lt;li&gt;How to design global platform&lt;/li&gt;
+  &lt;li&gt;What are the tools and frameoworks that can help&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 16 Dec 2020 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/speaking/software-qs-tag.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/software-qs-tag.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Quest4Quality</title>
+        <description>&lt;p&gt;I was invited to give a keynote at &lt;a href=&quot;https://www.questforquality.eu/speakers/milan-kuveljic/&quot;&gt;Quest for Quality Dublin&lt;/a&gt; online event. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/test-architecture-for-global-platforms-quest4quality-dublin&quot;&gt;Test Architecture for Global Platform&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Test architectures and challenges&lt;/li&gt;
+  &lt;li&gt;How to design global platform&lt;/li&gt;
+  &lt;li&gt;What are the tools and frameoworks that can help&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Wed, 28 Oct 2020 00:00:00 +0100</pubDate>
+        <link>http://testingin.space/speaking/quest4quality-dublin.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/quest4quality-dublin.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
+    
+      <item>
+        <title>Selenium Day ANZ</title>
+        <description>&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://seleniumday.com/online-anz/#Milan&quot;&gt;Selenium Day Australia &amp;amp; New Zealand&lt;/a&gt; online event. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/automation-in-mobile-testing-selenium-day-anz&quot;&gt;Automation in Mobile Testing&lt;/a&gt;.&lt;/p&gt;
+
+&lt;p&gt;I talked about:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Automation principles&lt;/li&gt;
+  &lt;li&gt;How to scope your automation for mobile apps&lt;/li&gt;
+  &lt;li&gt;How to design the architecture&lt;/li&gt;
+  &lt;li&gt;How to decide and choose tools&lt;/li&gt;
+  &lt;li&gt;How to maintain continuous testing for mobile&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Fri, 16 Oct 2020 00:00:00 +0200</pubDate>
+        <link>http://testingin.space/speaking/seleniumday-anz.html</link>
+        <guid isPermaLink="true">http://testingin.space/speaking/seleniumday-anz.html</guid>
+        
+        
+        <category>speaking</category>
+        
+      </item>
     
       <item>
         <title>London TAD Online Meetup</title>
@@ -147,72 +214,6 @@ I talked about:&lt;/p&gt;
         <pubDate>Thu, 27 Jun 2019 00:00:00 +0200</pubDate>
         <link>http://testingin.space/speaking/test-leadership-congress.html</link>
         <guid isPermaLink="true">http://testingin.space/speaking/test-leadership-congress.html</guid>
-        
-        
-        <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>QA Financial Forum London</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/meridien.jpg&quot; style=&quot;float: right; width: 220px&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;I was invited to speak at &lt;a href=&quot;https://www.qa-financial.com/events/qa-automation-for-mobiles-apps-london-2019&quot;&gt;QA Financial London Forum&lt;/a&gt;. I presented my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/automation-in-mobile-testing&quot;&gt;Automation in Mobile Testing&lt;/a&gt;. 
-I talked about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Automation principles&lt;/li&gt;
-  &lt;li&gt;How to scope your automation for mobile apps&lt;/li&gt;
-  &lt;li&gt;How to design the architecture&lt;/li&gt;
-  &lt;li&gt;How to decide and choose tools&lt;/li&gt;
-  &lt;li&gt;How to maintain continuous testing for mobile&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Wed, 12 Jun 2019 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/qa-financial-london.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/qa-financial-london.html</guid>
-        
-        
-        <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>German Testing Day</title>
-        <description>&lt;p&gt;I have taken a part at &lt;a href=&quot;https://www.germantestingday.info/german-testing-day-2019/programm/konferenzprogramm/sessiondetails/action/detail/session/gtd-23-2/title/onboarding-test-engineers.html&quot;&gt;German Testing Day&lt;/a&gt; with my talk &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/onboarding-test-engineers&quot;&gt;Onboarding Test Engineers&lt;/a&gt;.
-I talked about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Why is it important to invest in onboarding&lt;/li&gt;
-  &lt;li&gt;How to create a structured personalized space for new test engineers&lt;/li&gt;
-  &lt;li&gt;What are the values for new joiners and organization.&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Fri, 07 Jun 2019 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/german-testing-day.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/german-testing-day.html</guid>
-        
-        
-        <category>speaking</category>
-        
-      </item>
-    
-      <item>
-        <title>Meetup in New York</title>
-        <description>&lt;p&gt;One of the first series of &lt;a href=&quot;https://www.meetup.com/meetup-group-RaPHYvDN/events/259065290/&quot;&gt;N26 meetups in New York&lt;/a&gt;, actually the very 2nd one, where I talked about &lt;a href=&quot;https://speakerdeck.com/milan_kuveljic/mobile-test-architecture&quot;&gt;Mobile test architecture&lt;/a&gt; .
-My talk was mainly about:&lt;/p&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;Automation principles&lt;/li&gt;
-  &lt;li&gt;How to scope your automation for mobile apps&lt;/li&gt;
-  &lt;li&gt;How to design the architecture&lt;/li&gt;
-  &lt;li&gt;How to decide and choose tools&lt;/li&gt;
-  &lt;li&gt;How to maintain continuous testing for mobile&lt;/li&gt;
-&lt;/ul&gt;
-</description>
-        <pubDate>Thu, 28 Feb 2019 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/newyork-meetup.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/newyork-meetup.html</guid>
         
         
         <category>speaking</category>
