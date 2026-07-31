@@ -16,10 +16,10 @@ description: The present is theirs; the future, for which I really worked &#x219
 owner:
   name: Milan Kuveljic # or company name
   email: milan_kuveljic@hotmail.com
-  url: http://testingin.space
+  url: https://milanin.space
 first_published: 2012 # if migrating another site, the year of your first publish
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "http://testingin.space" # the base hostname & protocol for your site
+url: "https://milanin.space" # the base hostname & protocol for your site
 
 # on landing page
 # - set the greeting only if you want to display the first green section
@@ -97,8 +97,8 @@ custom_extensions: no
 # Build settings
 permalink: /:categories/:title.html
 markdown: kramdown
-#sass:
-#  style: compressed
+sass:
+  style: compressed
 exclude: ['site.bat','compose.rb','README.md']
 include: ['_pages','.htaccess']
 defaults:
@@ -115,7 +115,17 @@ defaults:
       path: _drafts
     values:
       layout: post
+  - scope:
+      type: works
+    values:
+      layout: post
 
 # to initialize arrays in assignments (assign myarr = site.empty_array)
 # (easier to grok than assign myarr = '' | split',')
 empty_array: []
+
+# Collections
+collections:
+  works:
+    output: true
+    permalink: /work/:name

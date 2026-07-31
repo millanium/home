@@ -30,7 +30,7 @@ sitemap:
         endif %}{%
         if post.priority %}
         <priority>{{ post.priority }}</priority>{%
-        else if post.tags contains featured %}
+        elsif post.tags contains featured %}
         <priority>0.9</priority>{%
         else %}
         <priority>0.7</priority>{%

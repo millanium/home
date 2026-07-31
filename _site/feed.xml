@@ -3,11 +3,11 @@
   <channel>
     <title>Testing in Space</title>
     <description>The present is theirs; the future, for which I really worked &amp;#x2192; is mine</description>
-    <link>http://testingin.space/</link>
-    <atom:link href="http://testingin.space/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 15 Aug 2021 22:23:59 +0200</pubDate>
-    <lastBuildDate>Sun, 15 Aug 2021 22:23:59 +0200</lastBuildDate>
-    <generator>Jekyll v3.2.1</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Fri, 31 Jul 2026 22:31:10 +0200</pubDate>
+    <lastBuildDate>Fri, 31 Jul 2026 22:31:10 +0200</lastBuildDate>
+    <generator>Jekyll v4.4.1</generator>
     
       <item>
         <title>Software QS Tag</title>
@@ -23,8 +23,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 16 Dec 2020 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/software-qs-tag.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/software-qs-tag.html</guid>
+        <link>http://localhost:4000/speaking/software-qs-tag.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/software-qs-tag.html</guid>
         
         
         <category>speaking</category>
@@ -45,8 +45,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 28 Oct 2020 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/quest4quality-dublin.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/quest4quality-dublin.html</guid>
+        <link>http://localhost:4000/speaking/quest4quality-dublin.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/quest4quality-dublin.html</guid>
         
         
         <category>speaking</category>
@@ -68,8 +68,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 16 Oct 2020 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/seleniumday-anz.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/seleniumday-anz.html</guid>
+        <link>http://localhost:4000/speaking/seleniumday-anz.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/seleniumday-anz.html</guid>
         
         
         <category>speaking</category>
@@ -83,8 +83,8 @@
 &lt;p&gt;You can listen it &lt;a href=&quot;https://theqalead.com/podcast/5-years-assure-5-million-customers-milan-kuveljic/&quot;&gt;here&lt;/a&gt;.&lt;/p&gt;
 </description>
         <pubDate>Mon, 27 Jul 2020 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/work/QA-Lead-podcast.html</link>
-        <guid isPermaLink="true">http://testingin.space/work/QA-Lead-podcast.html</guid>
+        <link>http://localhost:4000/work/QA-Lead-podcast.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/QA-Lead-podcast.html</guid>
         
         
         <category>work</category>
@@ -108,8 +108,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Tue, 19 May 2020 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/meetup-london.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/meetup-london.html</guid>
+        <link>http://localhost:4000/speaking/meetup-london.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/meetup-london.html</guid>
         
         
         <category>speaking</category>
@@ -124,8 +124,8 @@
 
 </description>
         <pubDate>Tue, 12 May 2020 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/qa-digital-forum.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/qa-digital-forum.html</guid>
+        <link>http://localhost:4000/speaking/qa-digital-forum.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/qa-digital-forum.html</guid>
         
         
         <category>speaking</category>
@@ -137,8 +137,8 @@
         <description>
 </description>
         <pubDate>Mon, 13 Apr 2020 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/work/From-QA-to-Quality-Engineering-A-Practical-Approach-to-Quality.html</link>
-        <guid isPermaLink="true">http://testingin.space/work/From-QA-to-Quality-Engineering-A-Practical-Approach-to-Quality.html</guid>
+        <link>http://localhost:4000/work/From-QA-to-Quality-Engineering-A-Practical-Approach-to-Quality.html</link>
+        <guid isPermaLink="true">http://localhost:4000/work/From-QA-to-Quality-Engineering-A-Practical-Approach-to-Quality.html</guid>
         
         
         <category>work</category>
@@ -159,8 +159,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Wed, 29 Jan 2020 00:00:00 +0100</pubDate>
-        <link>http://testingin.space/speaking/qa-financial-milano.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/qa-financial-milano.html</guid>
+        <link>http://localhost:4000/speaking/qa-financial-milano.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/qa-financial-milano.html</guid>
         
         
         <category>speaking</category>
@@ -183,8 +183,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Thu, 17 Oct 2019 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/vienna-meetup.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/vienna-meetup.html</guid>
+        <link>http://localhost:4000/speaking/vienna-meetup.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/vienna-meetup.html</guid>
         
         
         <category>speaking</category>
@@ -207,8 +207,8 @@ I talked about:&lt;/p&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Fri, 27 Sep 2019 00:00:00 +0200</pubDate>
-        <link>http://testingin.space/speaking/tacon-leipzig.html</link>
-        <guid isPermaLink="true">http://testingin.space/speaking/tacon-leipzig.html</guid>
+        <link>http://localhost:4000/speaking/tacon-leipzig.html</link>
+        <guid isPermaLink="true">http://localhost:4000/speaking/tacon-leipzig.html</guid>
         
         
         <category>speaking</category>

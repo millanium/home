@@ -5,20 +5,23 @@
     Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
   Jekyll build mod and further hacks by @arkadianriver, MIT license
 -->
-<html>
-
-<link rel="shortcut icon" type="image/png" href="/images/favicon.png" >
-
+<html lang="en">
   <head>
+  <link rel="shortcut icon" type="image/png" href="/images/favicon.png">
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>Who needs more Java versions on Mac?</title>
   <meta name="description" content="Java">
-  <!--[if lte IE 8]><script src="/js/ie/html5shiv.js"></script><![endif]-->
-  <link rel="canonical" href="http://testingin.space/work/who-needs-more-java-versions-on-mac.html">
+  <meta property="og:title" content="Who needs more Java versions on Mac?">
+  <meta property="og:description" content="Java">
+  <meta property="og:url" content="http://localhost:4000/work/who-needs-more-java-versions-on-mac.html">
+  <meta property="og:type" content="article">
+  <meta property="og:site_name" content="Testing in Space">
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="Who needs more Java versions on Mac?">
+  <meta name="twitter:description" content="Java">
+  <link rel="canonical" href="http://localhost:4000/work/who-needs-more-java-versions-on-mac.html">
   <link rel="stylesheet" href="/css/main.css" />
-  <!--[if lte IE 8]><link rel="stylesheet" href="/css/ie8.css" /><![endif]-->
-  <!--[if lte IE 9]><link rel="stylesheet" href="/css/ie9.css" /><![endif]-->
   <style>
   #main > header {
     background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/java.jpg");
@@ -27,14 +30,8 @@
     background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("/images/java.jpg");
   }
   </style>
-  <!--[if lte IE 9]>
-  <style>
-  #main > header {
-    background-image: url("/images/java.jpg");
-  }
-  </style>
-  -->
-  <link rel="alternate" type="application/rss+xml" title="Testing in Space" href="http://testingin.space/feed.xml">
+
+  <link rel="alternate" type="application/rss+xml" title="Testing in Space" href="http://localhost:4000/feed.xml">
 </head>
 
 
@@ -58,7 +55,7 @@
             <li><a href="/work/">Work</a></li>
             <li><a href="/spaces/">Spaces</a></li>
             <li><a href="/contact/">Contact</a></li>
-            <li><a href="/_pages/biography">Resume</a></li>
+            <li><a href="/resume/">Resume</a></li>
             <li><a href="/feed.xml"
                    class="icon fa-feed"> RSS Feed</a></li>
           </ul>
@@ -102,25 +99,22 @@ I will assume you have <strong>Homebrew</strong> already on your Mac.</p>
 
 <p>Install <strong>jEnv</strong> via <a href="http://brew.sh/">Homebrew</a>:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>brew update 
-brew install jenv
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew update 
+brew <span class="nb">install </span>jenv
+</code></pre></div></div>
 
-<p>To make <strong>jEnv</strong> available from anywhere in your <em>PATH</em>, you should add following to <code class="highlighter-rouge">.bash_profile</code> :</p>
+<p>To make <strong>jEnv</strong> available from anywhere in your <em>PATH</em>, you should add following to <code class="language-plaintext highlighter-rouge">.bash_profile</code> :</p>
 
-<div class="language-groovy highlighter-rouge"><pre class="highlight"><code><span class="k">if</span> <span class="n">which</span> <span class="n">jenv</span> <span class="o">&gt;</span> <span class="s">/dev/</span><span class="kc">null</span><span class="o">;</span> <span class="n">then</span> <span class="n">eval</span> <span class="s2">"$(jenv init -)"</span><span class="o">;</span> <span class="n">fi</span>
-</code></pre>
-</div>
+<div class="language-groovy highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="k">if</span> <span class="n">which</span> <span class="n">jenv</span> <span class="o">&gt;</span> <span class="s">/dev/</span><span class="kc">null</span><span class="o">;</span> <span class="n">then</span> <span class="n">eval</span> <span class="s2">"$(jenv init -)"</span><span class="o">;</span> <span class="n">fi</span>
+</code></pre></div></div>
 
 <p>Now, that you have <strong>jEnv</strong>, we can check what <strong>Java</strong> versions are installed:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>jenv versions
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jenv versions
  system
  1.8
 <span class="k">*</span> oracle64-1.8.0.131 <span class="o">(</span><span class="nb">set </span>by /Users/user/.java-version<span class="o">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>We can see that it detected the system <strong>Java</strong> and 1.8.
 The Asterisk in front of the system version marks the current selection.</p>
@@ -133,19 +127,17 @@ The Asterisk in front of the system version marks the current selection.</p>
 
 <p>Installation goes to:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>/System/Library/Java/JavaVirtualMachines/
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/System/Library/Java/JavaVirtualMachines/
+</code></pre></div></div>
 
 <p>We can add it to <strong>jEnv</strong>:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jenv add /System/Library/Java/JavaVirtualMachines/1.6.0.jdk/Contents/Home/
+</code></pre></div></div>
 
 <p>Now, if you check versions again:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>jenv versions
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>jenv versions
 system
   1.6
   1.6.0.65
@@ -153,8 +145,7 @@ system
   1.8.0.131
   oracle64-1.6.0.65
 <span class="k">*</span> oracle64-1.8.0.131 <span class="o">(</span><span class="nb">set </span>by /Users/user/.java-version<span class="o">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Ok, so far I am happy.</p>
 
@@ -162,38 +153,33 @@ system
 
 <p>It is installed in:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>/Library/Java/JavaVirtualMachines/
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>/Library/Java/JavaVirtualMachines/
+</code></pre></div></div>
 <p>And add it to <strong>jEnv</strong>:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jenv add /Library/Java/JavaVirtualMachines/jdk1.7.0_67.jdk/Contents/Home/
+</code></pre></div></div>
 
 <p>I have <strong>Java 8</strong>, as you could see, but if you do not, you can install it from <a href="http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html">Oracle</a>.</p>
 
 <p>And, add it to <strong>jEnv</strong>:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jenv add /Library/Java/JavaVirtualMachines/jdk1.8.0_131.jdk/Contents/Home/
+</code></pre></div></div>
 
 <p><strong>Java</strong> 7 and 8 you can also install using <a href="http://gillesfabio.github.io/homebrew-cask-homepage/">Homebrew Cask</a>:</p>
 
 <p>If you don’t have <strong>Homebrew Cask</strong> installed, you can easily do that:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>brew update
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew update
 brew tap caskroom/cask
-brew install brew-cask
-</code></pre>
-</div>
+brew <span class="nb">install </span>brew-cask
+</code></pre></div></div>
 <p>Now, let’s check if there is already java 7:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>brew tap caskroom/versions
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>brew tap caskroom/versions
 brew cask info java7
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p>Now that we have all versions installed and added to <strong>jEnv</strong>, we just need to select them.</p>
 
@@ -201,31 +187,27 @@ brew cask info java7
 
 <p>To select a specific version we run:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>jenv <span class="nb">local</span> <span class="o">[</span>version]
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jenv <span class="nb">local</span> <span class="o">[</span>version]
+</code></pre></div></div>
 <p>For example:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>jenv <span class="nb">local </span>oracle64-1.6.0.65
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jenv <span class="nb">local </span>oracle64-1.6.0.65
+</code></pre></div></div>
 
 <p>If we check what is the selected <strong>Java</strong> version:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code><span class="gp">$ </span>java -version
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nv">$ </span>java <span class="nt">-version</span>
 java version <span class="s2">"1.6.0_65"</span>
 Java<span class="o">(</span>TM<span class="o">)</span> SE Runtime Environment <span class="o">(</span>build 1.6.0_65-b14-462-11M4609<span class="o">)</span>
 Java HotSpot<span class="o">(</span>TM<span class="o">)</span> 64-Bit Server VM <span class="o">(</span>build 20.65-b04-462, mixed mode<span class="o">)</span>
-</code></pre>
-</div>
+</code></pre></div></div>
 
 <p><strong>jEnv</strong> comes with some more handy commands. You can select a default version with:</p>
 
-<div class="language-bash highlighter-rouge"><pre class="highlight"><code>jenv global <span class="o">[</span>version]
-</code></pre>
-</div>
+<div class="language-bash highlighter-rouge"><div class="highlight"><pre class="highlight"><code>jenv global <span class="o">[</span>version]
+</code></pre></div></div>
 
-<p>You can also set a version of Java to certain directories by creating a file <code class="highlighter-rouge">.java-version</code> with content of the version, for instance, <code class="highlighter-rouge">oracle64-1.6.0.65</code>. <strong>jEnv</strong> will make sure to use that local version when you change to this directory.</p>
+<p>You can also set a version of Java to certain directories by creating a file <code class="language-plaintext highlighter-rouge">.java-version</code> with content of the version, for instance, <code class="language-plaintext highlighter-rouge">oracle64-1.6.0.65</code>. <strong>jEnv</strong> will make sure to use that local version when you change to this directory.</p>
 
 
 
@@ -260,7 +242,7 @@ Java HotSpot<span class="o">(</span>TM<span class="o">)</span> 64-Bit Server VM 
   </ul>
   <ul class="copyright">
     <li>&copy; 2012,
-    2021
+    2026
       Milan Kuveljic</li>
     <li><a href="/credits/">Credits</a></li>
   </ul>
@@ -268,13 +250,12 @@ Java HotSpot<span class="o">(</span>TM<span class="o">)</span> 64-Bit Server VM 
 
 
       <!-- Scripts -->
-<script src="/js/jquery.min.js"></script>
-<script src="/js/jquery.scrollex.min.js"></script>
-<script src="/js/jquery.scrolly.min.js"></script>
-<script src="/js/skel.min.js"></script>
-<script src="/js/util.js"></script>
-<!--[if lte IE 8]><script src="/js/ie/respond.min.js"></script><![endif]-->
-<script src="/js/main.js"></script>
+<script defer src="/js/jquery.min.js"></script>
+<script defer src="/js/jquery.scrollex.min.js"></script>
+<script defer src="/js/jquery.scrolly.min.js"></script>
+<script defer src="/js/skel.min.js"></script>
+<script defer src="/js/util.js"></script>
+<script defer src="/js/main.js"></script>
 
     </div>
 
