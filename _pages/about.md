@@ -9,9 +9,9 @@ background-image: pic2.jpg
 <img src="/images/milanium.png"
      style="float: right; width: 320px" />
 My name is **Milan**, and this is my personal web space. 
-I am the Head of Quality Engineering and Regulatory Technology at [N26](https://n26.com), the mobile bank.
+I am the Director of Engineering at [N26](https://n26.com).
 
-I started my career as a Software Test Consultant where I was helping development teams in large organizations in banking and insurance domain to establish automation in testing culture. Later on, I have moved to Berlin to work on quality and reliability improvements in challenging Ad tech space.
+I started my career as a Software Engineer where I was helping development teams in large organizations in banking and insurance domain to establish automation in testing culture. Later on, I have moved to Berlin to work on quality and reliability improvements in challenging Ad tech space.
 
 In the last decade I have gained practical experience in software testing and quality engineering, in particular, agile testing, automation in testing and tooling, which I am sharing with development teams to improve the quality and process of building software.
 
