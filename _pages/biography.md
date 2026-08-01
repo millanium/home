@@ -6,7 +6,7 @@ options: minihead, nocomment
 categories: biography
 layout: post
 comments: false
-background-image: resume.jpg
+background-image: /images/resume.jpg
 ---
 
 <div style="text-align: right; margin-bottom: 1em;">

@@ -5,7 +5,7 @@ excerpt: Quality Assurance
 categories: work 
 layout: post
 comments: true
-background-image: words.jpg
+background-image: /images/words.jpg
 ---
 
 A few months ago I joined a startup as QA Engineer. We have already established quality culture across the development teams, nonetheless, the company is still in the early stage, and many new people are joining every month.
@@ -37,9 +37,3 @@ Quality and particularly, assuring quality of software implementation is in the 
 In each of the phase, product discovery, design, architecture, coding, testing, automation, deployment, monitoring there are set of actions which ensure that software meets the highest quality standards. It is a team effort to understand how each requirement, whether technical or functional will produce the value.
 
 So, which exactly part do you want me to check?
-
-
-
-
-
-
