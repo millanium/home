@@ -4,6 +4,7 @@ title: About
 permalink: /about/
 excerpt: A few words about me and myself
 background-image: /images/pic2.jpg
+image: pic2.jpg
 ---
 
 <img src="/images/milanium.png"

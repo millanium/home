@@ -7,6 +7,7 @@ categories: biography
 layout: post
 comments: false
 background-image: /images/resume.jpg
+image: resume.jpg
 ---
 
 <div style="text-align: right; margin-bottom: 1em;">
