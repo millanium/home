@@ -1,0 +1,5 @@
+# Overrides for local development
+
+url: "http://localhost:4000"
+owner:
+  url: http://localhost:4000
