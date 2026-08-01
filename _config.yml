@@ -99,7 +99,21 @@ permalink: /:categories/:title.html
 markdown: kramdown
 sass:
   style: compressed
-exclude: ['site.bat','compose.rb','README.md']
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - compose.rb
+  - site.bat
 include: ['_pages','.htaccess']
 defaults:
   - scope:
