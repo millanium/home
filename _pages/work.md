@@ -3,8 +3,8 @@ key: 3
 title: Work
 permalink: /work/
 excerpt: "A collection of my professional work, projects, and articles."
-background-image: /images/work.jpg
-image: work.jpg
+background-image: /images/pic4.jpg
+image: pic4.jpg
 ---
 
 Here are some of my projects and writings. For a more detailed overview, please see my <a href="/resume/">resume</a>.

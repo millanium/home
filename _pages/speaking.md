@@ -3,8 +3,8 @@ key: 2
 title: Speaking
 permalink: /speaking/
 excerpt: "A collection of my public speaking engagements, including keynotes, conference talks, and meetup presentations."
-background-image: /images/speaking.jpg
-image: speaking.jpg
+background-image: /images/pic3.jpg
+image: pic3.jpg
 ---
 
 I enjoy sharing my knowledge and experience at conferences and meetups. Here is a list of my previous and upcoming speaking engagements.
