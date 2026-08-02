@@ -2234,4 +2234,185 @@ $baseurl: '{{ site.baseurl }}/images';
   	margin-bottom:16px;
   }
 
+/* Resume Page Theme Component Styles */
 
+.resume-container {
+  max-width: 860px;
+  margin: 0 auto;
+}
+
+.resume-header {
+  text-align: center;
+  padding-bottom: 1.5rem;
+  margin-bottom: 2rem;
+  border-bottom: 2px solid _palette(accent7, border);
+}
+
+.resume-header h1 {
+  font-size: 2.2em;
+  font-weight: 800;
+  letter-spacing: 0.04em;
+  margin: 0 0 0.3rem 0;
+  color: _palette(accent7, fg-bold);
+  text-transform: uppercase;
+}
+
+.resume-header .executive-subtitle {
+  font-size: 1.05em;
+  font-weight: 700;
+  color: _palette(accent1, bg);
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+}
+
+.resume-header .tagline {
+  font-size: 0.9em;
+  color: _palette(accent7, fg-light);
+  margin-bottom: 1.25rem;
+}
+
+.resume-contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+  gap: 0.75rem 1.5rem;
+  font-size: 0.88em;
+  color: _palette(accent7, fg-light);
+}
+
+.resume-contact-links a {
+  color: _palette(accent7, fg-bold);
+  border-bottom-color: _palette(accent7, border);
+}
+
+.resume-contact-links a:hover {
+  color: _palette(accent1, bg);
+  border-bottom-color: _palette(accent1, bg);
+}
+
+.resume-section {
+  margin-bottom: 2.25rem;
+}
+
+.resume-section-title {
+  font-size: 1.2em;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: _palette(accent7, fg-bold);
+  margin: 0 0 1rem 0;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid _palette(accent7, border);
+}
+
+.resume-competencies-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 0.5rem 0.75rem;
+  margin: 0.75rem 0 0 0;
+  padding: 0;
+  list-style: none;
+}
+
+.resume-competencies-list li {
+  font-size: 0.88em;
+  font-weight: 600;
+  color: _palette(accent7, fg-bold);
+  background: _palette(accent7, border-bg);
+  padding: 0.35rem 0.8rem;
+  border-radius: 4px;
+  border: 1px solid _palette(accent7, border);
+}
+
+.resume-job {
+  margin-bottom: 1.75rem;
+}
+
+.resume-job-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  flex-wrap: wrap;
+  gap: 0.5rem;
+  margin-bottom: 0.35rem;
+}
+
+.resume-job-company {
+  font-size: 1.15em;
+  font-weight: 800;
+  color: _palette(accent7, fg-bold);
+}
+
+.resume-job-role {
+  font-size: 1.05em;
+  font-weight: 700;
+  color: _palette(accent1, bg);
+}
+
+.resume-job-dates {
+  font-size: 0.88em;
+  font-weight: 600;
+  color: _palette(accent7, fg-light);
+}
+
+.resume-job-summary {
+  font-size: 0.92em;
+  color: _palette(accent7, fg);
+  margin-bottom: 0.5rem;
+  line-height: 1.6;
+}
+
+.resume-job-details {
+  list-style-type: disc;
+  padding-left: 1.25rem;
+  margin: 0.5rem 0 0 0;
+}
+
+.resume-job-details li {
+  font-size: 0.9em;
+  margin-bottom: 0.4rem;
+  color: _palette(accent7, fg);
+  line-height: 1.6;
+}
+
+.resume-job-details li strong {
+  color: _palette(accent7, fg-bold);
+}
+
+.resume-grid-2col {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+  gap: 1.25rem;
+}
+
+.resume-grid-item h4 {
+  font-size: 1em;
+  font-weight: 700;
+  color: _palette(accent7, fg-bold);
+  margin: 0 0 0.2rem 0;
+}
+
+.resume-grid-item p {
+  font-size: 0.88em;
+  color: _palette(accent7, fg-light);
+  margin: 0;
+}
+
+@media (max-width: 736px) {
+  .resume-contact-links {
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+
+  .resume-job-header {
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0.15rem;
+  }
+}
+
+{% if site.custom_extensions == 'yes' %}
+{% include _my/custom.scss %}
+{% endif %}
