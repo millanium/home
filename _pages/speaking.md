@@ -1,8 +1,9 @@
 ---
-key: 2
+key: 3
 title: Speaking
 permalink: /speaking/
 excerpt: "A collection of my public speaking engagements, including keynotes, conference talks, and meetup presentations."
+description: "A collection of my public speaking engagements, including keynotes, conference talks, and meetup presentations."
 background-image: pic3.jpg
 image: pic3.jpg
 ---
