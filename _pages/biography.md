@@ -7,6 +7,7 @@ layout: post
 comments: false
 background-image: /images/resume.jpg
 image: resume.jpg
+featured: true
 ---
 
 <div class="resume-container">
