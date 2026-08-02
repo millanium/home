@@ -16,16 +16,19 @@
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
 {% if page.background-image %}
+  {% assign bg_img = page.background-image %}
+  {% unless bg_img contains '/' %}
+    {% assign bg_img = '/images/' | append: bg_img %}
+  {% endunless %}
   <style>
   #main > header {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ page.background-image | prepend: site.baseurl }}");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ page.background-image | prepend: site.baseurl }}");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ page.background-image | prepend: site.baseurl }}");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ page.background-image | prepend: site.baseurl }}");
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
   }
   </style>
-{%
-  endif %}{%
+{% endif %}{%
   if page.style-includes %}{%
     for include in page.style-includes %}{%
       assign test1 = include | slice: 0,2 %}{%
