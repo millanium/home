@@ -1,13 +1,14 @@
 ---
+key: 5
 priority: 0.1
 title: Resume
 permalink: /resume/
+description: "Director of Engineering & Executive Tech Leader"
 options: minihead, nocomment, fullwidth
 layout: post
 comments: false
 background-image: /images/resume.jpg
 image: resume.jpg
-featured: true
 ---
 
 <div class="resume-container">

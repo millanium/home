@@ -1,8 +1,9 @@
 ---
-key: 3
+key: 4
 title: Work
 permalink: /work/
 excerpt: "A collection of my professional work, projects, and articles."
+description: "A collection of my professional work, projects, and articles."
 background-image: pic4.jpg
 image: pic4.jpg
 ---
