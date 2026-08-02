@@ -1,13 +1,6 @@
 ---
 layout: default
 ---
-{% if page.background-image %}
-<style>
-  #main > header {
-    background-image: linear-gradient(top, rgba(0,0,0,0.3), rgba(0,0,0,0.3)), url('{{ page.background-image | prepend: site.baseurl }}');
-  }
-</style>
-{% endif %}
   <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
     <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">{%
       unless site.navlinks == 'none'
