@@ -129,7 +129,4 @@ defaults:
       path: _drafts
     values:
       layout: post
-  - scope:
-# to initialize arrays in assignments (assign myarr = site.empty_array)
-# (easier to grok than assign myarr = '' | split',')
-empty_array: []
+empty_array: [] # to initialize arrays in assignments (assign myarr = site.empty_array)
