@@ -4,37 +4,41 @@ layout: default
   <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
     <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">
 {%- unless site.navlinks == 'none' -%}{%- include post_nav_logic.html -%}{%- endunless -%}
-{%- if sorted_list and (site.navlinks == 'top' or site.navlinks == 'both')
-%}{%    include fn_sortednav.html posclass='btntop'
-%}{%  endif
-%}{%  unless page.options contains 'minihead' %}
-      <span id="post-date">{{ page.date  | date: "%-d %B %Y" }}</span><hr
-        style="margin-top:3px;" />{%
-      endunless
-%}{%  if page.categories contains 'works' and page.tags %}
-      <h4></h4>
-  {%    assign work = page
-%}{%    include techlist.html %}
-  {%  endif
-%}
+{%- if sorted_list -%}
+  {%- if site.navlinks == 'top' or site.navlinks == 'both' -%}
+    {%- include fn_sortednav.html posclass='btntop' -%}
+  {%- endif -%}
+{%- endif -%}
+{%- unless page.options contains 'minihead' -%}
+      <span id="post-date">{{ page.date | date: "%-d %B %Y" }}</span>
+      <hr style="margin-top:3px;" />
+{%- endunless -%}
+{%- assign is_work_post = false -%}
+{%- if page.categories contains 'work' or page.categories contains 'works' -%}
+  {%- assign is_work_post = true -%}
+{%- endif -%}
+{%- if is_work_post and page.tags -%}
+  {%- assign work = page -%}
+  {%- include techlist.html -%}
+{%- endif -%}
 
-      {{ content }}{%
+      {{ content }}
 
-
-      if sorted_list and (site.navlinks == 'bottom' or site.navlinks == 'both')
-%}{%    unless perma
-%}{%      assign perma = '/topics/'
-%}{%    endunless
-%}{%    include fn_sortednav.html posclass='btnbottom'
-%}{%  endif
-%}{%  unless page.author == 'none'
-%}{%    include author-block.html %}
-  {%  endunless
-%}{%  if jekyll.environment == "production"
-%}{%    unless page.options contains nocomment or page.categories contains 'works'
-%}{%      include disqus.html %}
-  {%    endunless
-%}{%  endif
-%}
+{%- if sorted_list -%}
+  {%- if site.navlinks == 'bottom' or site.navlinks == 'both' -%}
+    {%- unless perma -%}
+      {%- assign perma = '/topics/' -%}
+    {%- endunless -%}
+    {%- include fn_sortednav.html posclass='btnbottom' -%}
+  {%- endif -%}
+{%- endif -%}
+{%- unless page.author == 'none' -%}
+  {%- include author-block.html -%}
+{%- endunless -%}
+{%- if jekyll.environment == "production" -%}
+  {%- unless page.options contains 'nocomment' or page.categories contains 'works' or page.categories contains 'work' -%}
+    {%- include disqus.html -%}
+  {%- endunless -%}
+{%- endif -%}
     </div>
   </section>

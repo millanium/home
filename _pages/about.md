@@ -7,7 +7,7 @@ background-image: /images/pic2.jpg
 image: pic2.jpg
 ---
 
-<img src="/images/milanium.png"
+<img src="/images/milanium.jpg"
      style="float: right; width: 320px" />
 My name is **Milan**, and this is my personal web space. 
 I am the Director of Engineering at [N26](https://n26.com).
