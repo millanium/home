@@ -24,7 +24,7 @@ image: resume.jpg
       <span><i class="icon fa-envelope"></i> <a href="mailto:millan.kuveljic@gmail.com">millan.kuveljic@gmail.com</a></span>
       <span><i class="icon fa-linkedin"></i> <a href="https://linkedin.com/in/milankuveljic" target="_blank">milankuveljic</a></span>
       <span><i class="icon fa-globe"></i> <a href="https://milanin.space" target="_blank">milanin.space</a></span>
-      #<a href="{{ '/files/mika.pdf' | prepend: site.baseurl }}" target="_blank" class="button special icon fa-file-pdf-o"> PDF Resume</a>
+      <!-- <a href="{{ '/files/mika.pdf' | prepend: site.baseurl }}" target="_blank" class="button special icon fa-file-pdf-o"> PDF Resume</a> -->
     </div>
   </div>
 
