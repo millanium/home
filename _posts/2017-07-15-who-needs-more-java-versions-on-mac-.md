@@ -4,7 +4,7 @@ excerpt: Java
 priority: 0.5
 categories:
   - work
-background-image: java.jpg
+background-image: /images/java.jpg
 #date/lastupdated are optional
 #date: 2018-01-21 20:08:12
 #lastupdated: 2018-01-21 20:08:12
@@ -151,9 +151,3 @@ jenv global [version]
 ```
 
 You can also set a version of Java to certain directories by creating a file `.java-version` with content of the version, for instance, `oracle64-1.6.0.65`. **jEnv** will make sure to use that local version when you change to this directory.
-
-
-
-
-
-

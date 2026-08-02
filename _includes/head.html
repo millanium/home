@@ -3,39 +3,32 @@
   <meta charset="utf-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1" />
   <title>{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% assign page_desc = page.description | default: site.description | strip_html | strip_newlines | truncate: 160 | escape %}
+  <meta name="description" content="{{ page_desc }}">
   <meta property="og:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta property="og:description" content="{{ page_desc }}">
   <meta property="og:url" content="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
   <meta property="og:type" content="{% if page.layout == 'post' %}article{% else %}website{% endif %}">
   <meta property="og:site_name" content="{{ site.title }}">
   <meta name="twitter:card" content="summary">
   <meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta name="twitter:description" content="{{ page_desc }}">
   <link rel="canonical" href="{{ page.url | replace:'index.html','' | prepend: site.baseurl | prepend: site.url }}">
-  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />{%
-  if page.background-image %}{%
-    assign first_char = page.background-image | slice: 0 %}{%
-    if first_char == '/' %}{%
-      assign second_char = page.background-image | slice: 1 %}{%
-      if second_char == '/' %}{% comment %}                     // remote                 {% endcomment %}{%
-        assign imageurl = page.background-image %}{%
-      else %}{% comment %}                                      // local, not in /images/ {% endcomment %}{%
-        assign imageurl = page.background-image | prepend: site.baseurl %}{%
-      endif %}{%
-    else %}{% comment %}                                        // local, in /images/     {% endcomment %}{%
-      assign imageurl = page.background-image | prepend: "/images/" | prepend: site.baseurl %}{%
-    endif %}
+  <link rel="stylesheet" href="{{ "/css/main.css" | prepend: site.baseurl }}" />
+{% if page.background-image %}
+  {% assign bg_img = page.background-image %}
+  {% unless bg_img contains '/' %}
+    {% assign bg_img = '/images/' | append: bg_img %}
+  {% endunless %}
   <style>
   #main > header {
-    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ imageurl }}");
-    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ imageurl }}");
-    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ imageurl }}");
-    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ imageurl }}");
+    background-image: -moz-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
+    background-image: -webkit-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
+    background-image: -ms-linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
+    background-image: linear-gradient(top, rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("{{ bg_img | prepend: site.baseurl }}");
   }
   </style>
-{%
-  endif %}{%
+{% endif %}{%
   if page.style-includes %}{%
     for include in page.style-includes %}{%
       assign test1 = include | slice: 0,2 %}{%

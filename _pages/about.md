@@ -3,29 +3,22 @@ key: 1
 title: About
 permalink: /about/
 excerpt: A few words about me and myself
-background-image: pic2.jpg
+background-image: /images/pic2.jpg
+image: pic2.jpg
 ---
 
-<img src="/images/milanium.png"
+<img src="/images/milanium.jpg"
      style="float: right; width: 320px" />
 My name is **Milan**, and this is my personal web space. 
-I am the Head of Quality Engineering and Regulatory Technology at [N26](https://n26.com), the mobile bank.
+I am the Director of Engineering at [N26](https://n26.com).
 
-I started my career as a Software Test Consultant where I was helping development teams in large organizations in banking and insurance domain to establish automation in testing culture. Later on, I have moved to Berlin to work on quality and reliability improvements in challenging Ad tech space.
+I started my career as a Software Engineer where I was helping development teams in large organizations in banking and insurance domain to establish automation in testing culture. Later on, I have moved to Berlin to work on quality and reliability improvements in challenging Ad tech space.
 
 In the last decade I have gained practical experience in software testing and quality engineering, in particular, agile testing, automation in testing and tooling, which I am sharing with development teams to improve the quality and process of building software.
 
 In my current role, I am working with distributed engineering teams on building the highest software quality in mobile banking by following good practices in quality engineering.
 
-I am active in the testing community, through our [Slack](https://testersio.slack.com) channel. I share my thoughts @[milan_kuveljic](https://twitter.com/milan_kuveljic), feel free to reach out. I also write about ideas, tools, processes and everything that matters to our [work](/work)
 
 I enjoy speaking publicly at the conferences and meetups where I share my knowledge and experience. You can check my previous speaking [engagements](/speaking). If you think I can contribute to your event, conference or a meetup, feel free to [reach out](/contact).
 
 You can contact me via below social networks, or check my [resume](/resume/).
-
-
-
-
-
-
-

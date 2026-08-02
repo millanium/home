@@ -4,7 +4,7 @@ title: How deep is the Space?
 excerpt: Space
 categories: spaces
 layout: post
-background-image: space.jpg
+background-image: /images/space.jpg
 #date: 2018-01-21 20:08:12
 #lastupdated: 2018-01-21 20:08:12
 ---

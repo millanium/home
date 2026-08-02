@@ -11,7 +11,7 @@
 # (Using that method instead of site.owner, in case your posts get cloned with your repo.)
 
 # Site settings
-title: Testing in Space
+title: Welcome to the Space
 description: The present is theirs; the future, for which I really worked &#x2192; is mine
 owner:
   name: Milan Kuveljic # or company name
@@ -39,8 +39,8 @@ social:
   linkedin-square: https://linkedin.com/in/milankuveljic
   #facebook-official: https://facebook.com/milan.kuveljic
   email: /contact/
-  stack-overflow: https://stackoverflow.com/users/2154887/mika
-  foursquare: https://foursquare.com/mikathegreat
+  #stack-overflow: https://stackoverflow.com/users/2154887/mika
+  #foursquare: https://foursquare.com/mikathegreat
   soundcloud: https://soundcloud.com/mikathegreat
   medium: https://medium.com/@milano
   #strava-square: https://strava.com/athletes/4965802
@@ -99,7 +99,21 @@ permalink: /:categories/:title.html
 markdown: kramdown
 sass:
   style: compressed
-exclude: ['site.bat','compose.rb','README.md']
+exclude:
+  - .sass-cache/
+  - .jekyll-cache/
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  - Gemfile
+  - Gemfile.lock
+  - package.json
+  - package-lock.json
+  - README.md
+  - compose.rb
+  - site.bat
 include: ['_pages','.htaccess']
 defaults:
   - scope:
@@ -115,17 +129,4 @@ defaults:
       path: _drafts
     values:
       layout: post
-  - scope:
-      type: works
-    values:
-      layout: post
-
-# to initialize arrays in assignments (assign myarr = site.empty_array)
-# (easier to grok than assign myarr = '' | split',')
-empty_array: []
-
-# Collections
-collections:
-  works:
-    output: true
-    permalink: /work/:name
+empty_array: [] # to initialize arrays in assignments (assign myarr = site.empty_array)

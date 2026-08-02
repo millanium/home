@@ -39,8 +39,10 @@
         {% include backnextnav.html %}
       </div>
       <script>
-      document.body.onkeyup = function(e){
-        if (e.keyCode == '37') { window.location = '{{ prevurl }}'; }
-        if (e.keyCode == '39') { window.location = '{{ nexturl }}'; }
-      };
+      document.addEventListener('keyup', function(e) {
+        var tag = document.activeElement ? document.activeElement.tagName : '';
+        if (['INPUT', 'TEXTAREA', 'SELECT'].indexOf(tag) !== -1) return;
+        if (e.keyCode == 37 && '{{ prevurl }}' !== '') { window.location = '{{ prevurl }}'; }
+        if (e.keyCode == 39 && '{{ nexturl }}' !== '') { window.location = '{{ nexturl }}'; }
+      });
       </script>

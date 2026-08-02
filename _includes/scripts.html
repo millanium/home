@@ -1,10 +1,10 @@
 <!-- Scripts -->
-<script defer src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}"></script>
-<script defer src="{{ '/js/jquery.scrollex.min.js' | prepend: site.baseurl }}"></script>
-<script defer src="{{ '/js/jquery.scrolly.min.js' | prepend: site.baseurl }}"></script>
-<script defer src="{{ '/js/skel.min.js' | prepend: site.baseurl }}"></script>
-<script defer src="{{ '/js/util.js' | prepend: site.baseurl }}"></script>
-<script defer src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>{%
+<script src="{{ '/js/jquery.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/jquery.scrollex.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/jquery.scrolly.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/skel.min.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/util.js' | prepend: site.baseurl }}"></script>
+<script src="{{ '/js/main.js' | prepend: site.baseurl }}"></script>{%
   for include in page.script-includes %}{%
     assign test1 = include | slice: 0,2 %}{%
     if test1 == "//" %}
