@@ -3,7 +3,7 @@ key: 5
 priority: 0.1
 title: Resume
 permalink: /resume/
-description: "Director of Engineering & Executive Tech Leader"
+description: ""
 options: minihead, nocomment, fullwidth
 layout: post
 comments: false
