@@ -2,28 +2,9 @@
 layout: default
 ---
   <section class="wrapper{% if page.options contains 'minihead' %} minihead{% endif %} style5">
-    <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">{%
-      unless site.navlinks == 'none'
-%}{%    if page.categories contains 'works'
-%}{%      assign idxperma = '/works/'
-%}{%      assign idxtitle ='Works Index'
-%}{%      assign idxbutton = 'Index'
-%}{%      include fn_groupsort_reverse.html unsorted=site.categories.works groupby='priority' sortby='date'
-%}{%    endif
-%}{%    if page.categories.first == 'topics' and page.categories.last != 'topics'
-%}{%      assign idxperma = page.categories | join: '/' | prepend: '/' | append: '/'
-%}{%      assign idxtitle = 'Start page'
-%}{%      assign idxbutton = 'Start'
-%}{%      assign sorted_list = site.empty_array
-%}{%      for topic in site.categories.topics
-%}{%        if topic.categories.last == page.categories.last
-%}{%          assign sorted_list = sorted_list | push: topic
-%}{%        endif
-%}{%      endfor
-%}{%      assign sorted_list = sorted_list | sort: 'date'
-%}{%    endif
-%}{%  endunless
-%}{%  if sorted_list and (site.navlinks == 'top' or site.navlinks == 'both')
+    <div class="inner{% if page.options contains 'fullwidth' %} fullwidth{% endif %}">
+{%- unless site.navlinks == 'none' -%}{%- include post_nav_logic.html -%}{%- endunless -%}
+{%- if sorted_list and (site.navlinks == 'top' or site.navlinks == 'both')
 %}{%    include fn_sortednav.html posclass='btntop'
 %}{%  endif
 %}{%  unless page.options contains 'minihead' %}
