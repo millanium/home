@@ -130,16 +130,6 @@ defaults:
     values:
       layout: post
   - scope:
-      type: works
-    values:
-      layout: post
-
 # to initialize arrays in assignments (assign myarr = site.empty_array)
 # (easier to grok than assign myarr = '' | split',')
 empty_array: []
-
-# Collections
-collections:
-  works:
-    output: true
-    permalink: /work/:name
